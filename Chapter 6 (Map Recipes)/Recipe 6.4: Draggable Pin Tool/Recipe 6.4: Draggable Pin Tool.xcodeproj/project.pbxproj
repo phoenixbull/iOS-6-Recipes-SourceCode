@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CD42A415A4E5D90074DB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD42A315A4E5D90074DB99 /* UIKit.framework */; };
+		06CD42A615A4E5D90074DB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD42A515A4E5D90074DB99 /* Foundation.framework */; };
+		06CD42A815A4E5D90074DB99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD42A715A4E5D90074DB99 /* CoreGraphics.framework */; };
+		06CD42AE15A4E5D90074DB99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06CD42AC15A4E5D90074DB99 /* InfoPlist.strings */; };
+		06CD42B015A4E5D90074DB99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD42AF15A4E5D90074DB99 /* main.m */; };
+		06CD42B415A4E5D90074DB99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD42B315A4E5D90074DB99 /* AppDelegate.m */; };
+		06CD42B715A4E5D90074DB99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD42B615A4E5D90074DB99 /* ViewController.m */; };
+		06CD42BA15A4E5D90074DB99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CD42B815A4E5D90074DB99 /* ViewController.xib */; };
+		06CD42C115A4E6000074DB99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD42C015A4E6000074DB99 /* MapKit.framework */; };
+		06CD42C315A4E6090074DB99 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD42C215A4E6090074DB99 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06CD429F15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6.4: Draggable Pin Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CD42A315A4E5D90074DB99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06CD42A515A4E5D90074DB99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06CD42A715A4E5D90074DB99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06CD42AB15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6.4: Draggable Pin Tool-Info.plist"; sourceTree = "<group>"; };
+		06CD42AD15A4E5D90074DB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06CD42AF15A4E5D90074DB99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06CD42B115A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6.4: Draggable Pin Tool-Prefix.pch"; sourceTree = "<group>"; };
+		06CD42B215A4E5D90074DB99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06CD42B315A4E5D90074DB99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06CD42B515A4E5D90074DB99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06CD42B615A4E5D90074DB99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06CD42B915A4E5D90074DB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		06CD42C015A4E6000074DB99 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		06CD42C215A4E6090074DB99 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CD429C15A4E5D90074DB99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD42C315A4E6090074DB99 /* CoreLocation.framework in Frameworks */,
+				06CD42C115A4E6000074DB99 /* MapKit.framework in Frameworks */,
+				06CD42A415A4E5D90074DB99 /* UIKit.framework in Frameworks */,
+				06CD42A615A4E5D90074DB99 /* Foundation.framework in Frameworks */,
+				06CD42A815A4E5D90074DB99 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CD429415A4E5D90074DB99 = {
+			isa = PBXGroup;
+			children = (
+				06CD42C215A4E6090074DB99 /* CoreLocation.framework */,
+				06CD42C015A4E6000074DB99 /* MapKit.framework */,
+				06CD42A915A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool */,
+				06CD42A215A4E5D90074DB99 /* Frameworks */,
+				06CD42A015A4E5D90074DB99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CD42A015A4E5D90074DB99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CD429F15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CD42A215A4E5D90074DB99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CD42A315A4E5D90074DB99 /* UIKit.framework */,
+				06CD42A515A4E5D90074DB99 /* Foundation.framework */,
+				06CD42A715A4E5D90074DB99 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06CD42A915A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool */ = {
+			isa = PBXGroup;
+			children = (
+				06CD42B215A4E5D90074DB99 /* AppDelegate.h */,
+				06CD42B315A4E5D90074DB99 /* AppDelegate.m */,
+				06CD42B515A4E5D90074DB99 /* ViewController.h */,
+				06CD42B615A4E5D90074DB99 /* ViewController.m */,
+				06CD42B815A4E5D90074DB99 /* ViewController.xib */,
+				06CD42AA15A4E5D90074DB99 /* Supporting Files */,
+			);
+			path = "Recipe 6.4: Draggable Pin Tool";
+			sourceTree = "<group>";
+		};
+		06CD42AA15A4E5D90074DB99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06CD42AB15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool-Info.plist */,
+				06CD42AC15A4E5D90074DB99 /* InfoPlist.strings */,
+				06CD42AF15A4E5D90074DB99 /* main.m */,
+				06CD42B115A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CD429E15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CD42BD15A4E5D90074DB99 /* Build configuration list for PBXNativeTarget "Recipe 6.4: Draggable Pin Tool" */;
+			buildPhases = (
+				06CD429B15A4E5D90074DB99 /* Sources */,
+				06CD429C15A4E5D90074DB99 /* Frameworks */,
+				06CD429D15A4E5D90074DB99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6.4: Draggable Pin Tool";
+			productName = "Recipe 6.4: Draggable Pin Tool";
+			productReference = 06CD429F15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CD429615A4E5D90074DB99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 06CD429915A4E5D90074DB99 /* Build configuration list for PBXProject "Recipe 6.4: Draggable Pin Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06CD429415A4E5D90074DB99;
+			productRefGroup = 06CD42A015A4E5D90074DB99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CD429E15A4E5D90074DB99 /* Recipe 6.4: Draggable Pin Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CD429D15A4E5D90074DB99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD42AE15A4E5D90074DB99 /* InfoPlist.strings in Resources */,
+				06CD42BA15A4E5D90074DB99 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CD429B15A4E5D90074DB99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD42B015A4E5D90074DB99 /* main.m in Sources */,
+				06CD42B415A4E5D90074DB99 /* AppDelegate.m in Sources */,
+				06CD42B715A4E5D90074DB99 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06CD42AC15A4E5D90074DB99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CD42AD15A4E5D90074DB99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06CD42B815A4E5D90074DB99 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CD42B915A4E5D90074DB99 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CD42BB15A4E5D90074DB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06CD42BC15A4E5D90074DB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CD42BE15A4E5D90074DB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.4: Draggable Pin Tool/Recipe 6.4: Draggable Pin Tool-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.4: Draggable Pin Tool/Recipe 6.4: Draggable Pin Tool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06CD42BF15A4E5D90074DB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.4: Draggable Pin Tool/Recipe 6.4: Draggable Pin Tool-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.4: Draggable Pin Tool/Recipe 6.4: Draggable Pin Tool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CD429915A4E5D90074DB99 /* Build configuration list for PBXProject "Recipe 6.4: Draggable Pin Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CD42BB15A4E5D90074DB99 /* Debug */,
+				06CD42BC15A4E5D90074DB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CD42BD15A4E5D90074DB99 /* Build configuration list for PBXNativeTarget "Recipe 6.4: Draggable Pin Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CD42BE15A4E5D90074DB99 /* Debug */,
+				06CD42BF15A4E5D90074DB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CD429615A4E5D90074DB99 /* Project object */;
+}

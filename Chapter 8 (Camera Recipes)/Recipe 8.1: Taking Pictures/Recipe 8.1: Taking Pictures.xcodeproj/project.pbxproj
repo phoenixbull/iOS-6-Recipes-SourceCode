@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064C0B2A15B6B89E0050BD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064C0B2915B6B89E0050BD6E /* UIKit.framework */; };
+		064C0B2C15B6B89E0050BD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064C0B2B15B6B89E0050BD6E /* Foundation.framework */; };
+		064C0B2E15B6B89E0050BD6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064C0B2D15B6B89E0050BD6E /* CoreGraphics.framework */; };
+		064C0B3415B6B89E0050BD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 064C0B3215B6B89E0050BD6E /* InfoPlist.strings */; };
+		064C0B3615B6B89E0050BD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 064C0B3515B6B89E0050BD6E /* main.m */; };
+		064C0B3A15B6B89E0050BD6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064C0B3915B6B89E0050BD6E /* AppDelegate.m */; };
+		064C0B3D15B6B89E0050BD6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064C0B3C15B6B89E0050BD6E /* ViewController.m */; };
+		064C0B4015B6B89E0050BD6E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 064C0B3E15B6B89E0050BD6E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064C0B2515B6B89E0050BD6E /* Recipe 8.1: Taking Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 8.1: Taking Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064C0B2915B6B89E0050BD6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		064C0B2B15B6B89E0050BD6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		064C0B2D15B6B89E0050BD6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		064C0B3115B6B89E0050BD6E /* Recipe 8.1: Taking Pictures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 8.1: Taking Pictures-Info.plist"; sourceTree = "<group>"; };
+		064C0B3315B6B89E0050BD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		064C0B3515B6B89E0050BD6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		064C0B3715B6B89E0050BD6E /* Recipe 8.1: Taking Pictures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 8.1: Taking Pictures-Prefix.pch"; sourceTree = "<group>"; };
+		064C0B3815B6B89E0050BD6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		064C0B3915B6B89E0050BD6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		064C0B3B15B6B89E0050BD6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		064C0B3C15B6B89E0050BD6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		064C0B3F15B6B89E0050BD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064C0B2215B6B89E0050BD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064C0B2A15B6B89E0050BD6E /* UIKit.framework in Frameworks */,
+				064C0B2C15B6B89E0050BD6E /* Foundation.framework in Frameworks */,
+				064C0B2E15B6B89E0050BD6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064C0B1A15B6B89E0050BD6E = {
+			isa = PBXGroup;
+			children = (
+				064C0B2F15B6B89E0050BD6E /* Recipe 8.1: Taking Pictures */,
+				064C0B2815B6B89E0050BD6E /* Frameworks */,
+				064C0B2615B6B89E0050BD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064C0B2615B6B89E0050BD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064C0B2515B6B89E0050BD6E /* Recipe 8.1: Taking Pictures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064C0B2815B6B89E0050BD6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				064C0B2915B6B89E0050BD6E /* UIKit.framework */,
+				064C0B2B15B6B89E0050BD6E /* Foundation.framework */,
+				064C0B2D15B6B89E0050BD6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		064C0B2F15B6B89E0050BD6E /* Recipe 8.1: Taking Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				064C0B3815B6B89E0050BD6E /* AppDelegate.h */,
+				064C0B3915B6B89E0050BD6E /* AppDelegate.m */,
+				064C0B3B15B6B89E0050BD6E /* ViewController.h */,
+				064C0B3C15B6B89E0050BD6E /* ViewController.m */,
+				064C0B3E15B6B89E0050BD6E /* ViewController.xib */,
+				064C0B3015B6B89E0050BD6E /* Supporting Files */,
+			);
+			path = "Recipe 8.1: Taking Pictures";
+			sourceTree = "<group>";
+		};
+		064C0B3015B6B89E0050BD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				064C0B3115B6B89E0050BD6E /* Recipe 8.1: Taking Pictures-Info.plist */,
+				064C0B3215B6B89E0050BD6E /* InfoPlist.strings */,
+				064C0B3515B6B89E0050BD6E /* main.m */,
+				064C0B3715B6B89E0050BD6E /* Recipe 8.1: Taking Pictures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064C0B2415B6B89E0050BD6E /* Recipe 8.1: Taking Pictures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064C0B4315B6B89E0050BD6E /* Build configuration list for PBXNativeTarget "Recipe 8.1: Taking Pictures" */;
+			buildPhases = (
+				064C0B2115B6B89E0050BD6E /* Sources */,
+				064C0B2215B6B89E0050BD6E /* Frameworks */,
+				064C0B2315B6B89E0050BD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 8.1: Taking Pictures";
+			productName = "Recipe 8.1: Taking Pictures";
+			productReference = 064C0B2515B6B89E0050BD6E /* Recipe 8.1: Taking Pictures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064C0B1C15B6B89E0050BD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 064C0B1F15B6B89E0050BD6E /* Build configuration list for PBXProject "Recipe 8.1: Taking Pictures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 064C0B1A15B6B89E0050BD6E;
+			productRefGroup = 064C0B2615B6B89E0050BD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064C0B2415B6B89E0050BD6E /* Recipe 8.1: Taking Pictures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064C0B2315B6B89E0050BD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064C0B3415B6B89E0050BD6E /* InfoPlist.strings in Resources */,
+				064C0B4015B6B89E0050BD6E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064C0B2115B6B89E0050BD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064C0B3615B6B89E0050BD6E /* main.m in Sources */,
+				064C0B3A15B6B89E0050BD6E /* AppDelegate.m in Sources */,
+				064C0B3D15B6B89E0050BD6E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		064C0B3215B6B89E0050BD6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064C0B3315B6B89E0050BD6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		064C0B3E15B6B89E0050BD6E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064C0B3F15B6B89E0050BD6E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		064C0B4115B6B89E0050BD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		064C0B4215B6B89E0050BD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064C0B4415B6B89E0050BD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8.1: Taking Pictures/Recipe 8.1: Taking Pictures-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8.1: Taking Pictures/Recipe 8.1: Taking Pictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		064C0B4515B6B89E0050BD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8.1: Taking Pictures/Recipe 8.1: Taking Pictures-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8.1: Taking Pictures/Recipe 8.1: Taking Pictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064C0B1F15B6B89E0050BD6E /* Build configuration list for PBXProject "Recipe 8.1: Taking Pictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064C0B4115B6B89E0050BD6E /* Debug */,
+				064C0B4215B6B89E0050BD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064C0B4315B6B89E0050BD6E /* Build configuration list for PBXNativeTarget "Recipe 8.1: Taking Pictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064C0B4415B6B89E0050BD6E /* Debug */,
+				064C0B4515B6B89E0050BD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064C0B1C15B6B89E0050BD6E /* Project object */;
+}

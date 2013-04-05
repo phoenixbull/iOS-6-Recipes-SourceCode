@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0652395115BD78AC00985C56 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0652395015BD78AC00985C56 /* AssetsLibrary.framework */; };
+		06B2B4B315BD72B5004B6984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B2B4B215BD72B5004B6984 /* UIKit.framework */; };
+		06B2B4B515BD72B5004B6984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B2B4B415BD72B5004B6984 /* Foundation.framework */; };
+		06B2B4B715BD72B5004B6984 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B2B4B615BD72B5004B6984 /* CoreGraphics.framework */; };
+		06B2B4BD15BD72B5004B6984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B2B4BB15BD72B5004B6984 /* InfoPlist.strings */; };
+		06B2B4BF15BD72B5004B6984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B2B4BE15BD72B5004B6984 /* main.m */; };
+		06B2B4C315BD72B5004B6984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B2B4C215BD72B5004B6984 /* AppDelegate.m */; };
+		06B2B4C615BD72B5004B6984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B2B4C515BD72B5004B6984 /* ViewController.m */; };
+		06B2B4C915BD72B5004B6984 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B2B4C715BD72B5004B6984 /* ViewController.xib */; };
+		06B2B4D815BD7509004B6984 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B2B4D715BD7509004B6984 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0652395015BD78AC00985C56 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		06B2B4AE15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 8.7: Recording Video With AVCaptureSession.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B2B4B215BD72B5004B6984 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06B2B4B415BD72B5004B6984 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06B2B4B615BD72B5004B6984 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06B2B4BA15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 8.7: Recording Video With AVCaptureSession-Info.plist"; sourceTree = "<group>"; };
+		06B2B4BC15BD72B5004B6984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06B2B4BE15BD72B5004B6984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06B2B4C015BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 8.7: Recording Video With AVCaptureSession-Prefix.pch"; sourceTree = "<group>"; };
+		06B2B4C115BD72B5004B6984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06B2B4C215BD72B5004B6984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06B2B4C415BD72B5004B6984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06B2B4C515BD72B5004B6984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06B2B4C815BD72B5004B6984 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		06B2B4D715BD7509004B6984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B2B4AB15BD72B5004B6984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0652395115BD78AC00985C56 /* AssetsLibrary.framework in Frameworks */,
+				06B2B4D815BD7509004B6984 /* AVFoundation.framework in Frameworks */,
+				06B2B4B315BD72B5004B6984 /* UIKit.framework in Frameworks */,
+				06B2B4B515BD72B5004B6984 /* Foundation.framework in Frameworks */,
+				06B2B4B715BD72B5004B6984 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B2B4A315BD72B5004B6984 = {
+			isa = PBXGroup;
+			children = (
+				0652395015BD78AC00985C56 /* AssetsLibrary.framework */,
+				06B2B4B815BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession */,
+				06B2B4B115BD72B5004B6984 /* Frameworks */,
+				06B2B4AF15BD72B5004B6984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06B2B4AF15BD72B5004B6984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B2B4AE15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B2B4B115BD72B5004B6984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B2B4D715BD7509004B6984 /* AVFoundation.framework */,
+				06B2B4B215BD72B5004B6984 /* UIKit.framework */,
+				06B2B4B415BD72B5004B6984 /* Foundation.framework */,
+				06B2B4B615BD72B5004B6984 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06B2B4B815BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				06B2B4C115BD72B5004B6984 /* AppDelegate.h */,
+				06B2B4C215BD72B5004B6984 /* AppDelegate.m */,
+				06B2B4C415BD72B5004B6984 /* ViewController.h */,
+				06B2B4C515BD72B5004B6984 /* ViewController.m */,
+				06B2B4C715BD72B5004B6984 /* ViewController.xib */,
+				06B2B4B915BD72B5004B6984 /* Supporting Files */,
+			);
+			path = "Recipe 8.7: Recording Video With AVCaptureSession";
+			sourceTree = "<group>";
+		};
+		06B2B4B915BD72B5004B6984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B2B4BA15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession-Info.plist */,
+				06B2B4BB15BD72B5004B6984 /* InfoPlist.strings */,
+				06B2B4BE15BD72B5004B6984 /* main.m */,
+				06B2B4C015BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B2B4AD15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B2B4CC15BD72B5004B6984 /* Build configuration list for PBXNativeTarget "Recipe 8.7: Recording Video With AVCaptureSession" */;
+			buildPhases = (
+				06B2B4AA15BD72B5004B6984 /* Sources */,
+				06B2B4AB15BD72B5004B6984 /* Frameworks */,
+				06B2B4AC15BD72B5004B6984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 8.7: Recording Video With AVCaptureSession";
+			productName = "Recipe 8.7: Recording Video With AVCaptureSession";
+			productReference = 06B2B4AE15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B2B4A515BD72B5004B6984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 06B2B4A815BD72B5004B6984 /* Build configuration list for PBXProject "Recipe 8.7: Recording Video With AVCaptureSession" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06B2B4A315BD72B5004B6984;
+			productRefGroup = 06B2B4AF15BD72B5004B6984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B2B4AD15BD72B5004B6984 /* Recipe 8.7: Recording Video With AVCaptureSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B2B4AC15BD72B5004B6984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B2B4BD15BD72B5004B6984 /* InfoPlist.strings in Resources */,
+				06B2B4C915BD72B5004B6984 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B2B4AA15BD72B5004B6984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B2B4BF15BD72B5004B6984 /* main.m in Sources */,
+				06B2B4C315BD72B5004B6984 /* AppDelegate.m in Sources */,
+				06B2B4C615BD72B5004B6984 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06B2B4BB15BD72B5004B6984 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B2B4BC15BD72B5004B6984 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06B2B4C715BD72B5004B6984 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B2B4C815BD72B5004B6984 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B2B4CA15BD72B5004B6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06B2B4CB15BD72B5004B6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B2B4CD15BD72B5004B6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8.7: Recording Video With AVCaptureSession/Recipe 8.7: Recording Video With AVCaptureSession-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8.7: Recording Video With AVCaptureSession/Recipe 8.7: Recording Video With AVCaptureSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06B2B4CE15BD72B5004B6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8.7: Recording Video With AVCaptureSession/Recipe 8.7: Recording Video With AVCaptureSession-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8.7: Recording Video With AVCaptureSession/Recipe 8.7: Recording Video With AVCaptureSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B2B4A815BD72B5004B6984 /* Build configuration list for PBXProject "Recipe 8.7: Recording Video With AVCaptureSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B2B4CA15BD72B5004B6984 /* Debug */,
+				06B2B4CB15BD72B5004B6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B2B4CC15BD72B5004B6984 /* Build configuration list for PBXNativeTarget "Recipe 8.7: Recording Video With AVCaptureSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B2B4CD15BD72B5004B6984 /* Debug */,
+				06B2B4CE15BD72B5004B6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B2B4A515BD72B5004B6984 /* Project object */;
+}

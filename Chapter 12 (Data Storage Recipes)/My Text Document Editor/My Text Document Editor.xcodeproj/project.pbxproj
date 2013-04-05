@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06413DA215F367C700C01023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06413DA115F367C700C01023 /* UIKit.framework */; };
+		06413DA415F367C700C01023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06413DA315F367C700C01023 /* Foundation.framework */; };
+		06413DA615F367C700C01023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06413DA515F367C700C01023 /* CoreGraphics.framework */; };
+		06413DAC15F367C700C01023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06413DAA15F367C700C01023 /* InfoPlist.strings */; };
+		06413DAE15F367C700C01023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06413DAD15F367C700C01023 /* main.m */; };
+		06413DB215F367C700C01023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06413DB115F367C700C01023 /* AppDelegate.m */; };
+		06413DB515F367C700C01023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06413DB415F367C700C01023 /* ViewController.m */; };
+		06413DB815F367C700C01023 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06413DB615F367C700C01023 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06413D9D15F367C700C01023 /* My Text Document Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Text Document Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06413DA115F367C700C01023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06413DA315F367C700C01023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06413DA515F367C700C01023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06413DA915F367C700C01023 /* My Text Document Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Text Document Editor-Info.plist"; sourceTree = "<group>"; };
+		06413DAB15F367C700C01023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06413DAD15F367C700C01023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06413DAF15F367C700C01023 /* My Text Document Editor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Text Document Editor-Prefix.pch"; sourceTree = "<group>"; };
+		06413DB015F367C700C01023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06413DB115F367C700C01023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06413DB315F367C700C01023 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06413DB415F367C700C01023 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06413DB715F367C700C01023 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06413D9A15F367C700C01023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06413DA215F367C700C01023 /* UIKit.framework in Frameworks */,
+				06413DA415F367C700C01023 /* Foundation.framework in Frameworks */,
+				06413DA615F367C700C01023 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06413D9215F367C700C01023 = {
+			isa = PBXGroup;
+			children = (
+				06413DA715F367C700C01023 /* My Text Document Editor */,
+				06413DA015F367C700C01023 /* Frameworks */,
+				06413D9E15F367C700C01023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06413D9E15F367C700C01023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06413D9D15F367C700C01023 /* My Text Document Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06413DA015F367C700C01023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06413DA115F367C700C01023 /* UIKit.framework */,
+				06413DA315F367C700C01023 /* Foundation.framework */,
+				06413DA515F367C700C01023 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06413DA715F367C700C01023 /* My Text Document Editor */ = {
+			isa = PBXGroup;
+			children = (
+				06413DB015F367C700C01023 /* AppDelegate.h */,
+				06413DB115F367C700C01023 /* AppDelegate.m */,
+				06413DB315F367C700C01023 /* ViewController.h */,
+				06413DB415F367C700C01023 /* ViewController.m */,
+				06413DB615F367C700C01023 /* ViewController.xib */,
+				06413DA815F367C700C01023 /* Supporting Files */,
+			);
+			path = "My Text Document Editor";
+			sourceTree = "<group>";
+		};
+		06413DA815F367C700C01023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06413DA915F367C700C01023 /* My Text Document Editor-Info.plist */,
+				06413DAA15F367C700C01023 /* InfoPlist.strings */,
+				06413DAD15F367C700C01023 /* main.m */,
+				06413DAF15F367C700C01023 /* My Text Document Editor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06413D9C15F367C700C01023 /* My Text Document Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06413DBB15F367C700C01023 /* Build configuration list for PBXNativeTarget "My Text Document Editor" */;
+			buildPhases = (
+				06413D9915F367C700C01023 /* Sources */,
+				06413D9A15F367C700C01023 /* Frameworks */,
+				06413D9B15F367C700C01023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Text Document Editor";
+			productName = "My Text Document Editor";
+			productReference = 06413D9D15F367C700C01023 /* My Text Document Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06413D9415F367C700C01023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 06413D9715F367C700C01023 /* Build configuration list for PBXProject "My Text Document Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06413D9215F367C700C01023;
+			productRefGroup = 06413D9E15F367C700C01023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06413D9C15F367C700C01023 /* My Text Document Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06413D9B15F367C700C01023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06413DAC15F367C700C01023 /* InfoPlist.strings in Resources */,
+				06413DB815F367C700C01023 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06413D9915F367C700C01023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06413DAE15F367C700C01023 /* main.m in Sources */,
+				06413DB215F367C700C01023 /* AppDelegate.m in Sources */,
+				06413DB515F367C700C01023 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06413DAA15F367C700C01023 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06413DAB15F367C700C01023 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06413DB615F367C700C01023 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06413DB715F367C700C01023 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06413DB915F367C700C01023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06413DBA15F367C700C01023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06413DBC15F367C700C01023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Text Document Editor/My Text Document Editor-Prefix.pch";
+				INFOPLIST_FILE = "My Text Document Editor/My Text Document Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06413DBD15F367C700C01023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Text Document Editor/My Text Document Editor-Prefix.pch";
+				INFOPLIST_FILE = "My Text Document Editor/My Text Document Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06413D9715F367C700C01023 /* Build configuration list for PBXProject "My Text Document Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06413DB915F367C700C01023 /* Debug */,
+				06413DBA15F367C700C01023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06413DBB15F367C700C01023 /* Build configuration list for PBXNativeTarget "My Text Document Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06413DBC15F367C700C01023 /* Debug */,
+				06413DBD15F367C700C01023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06413D9415F367C700C01023 /* Project object */;
+}

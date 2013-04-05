@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E42C5F15A85520008DD6F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E42C5E15A85520008DD6F7 /* UIKit.framework */; };
+		06E42C6115A85520008DD6F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E42C6015A85520008DD6F7 /* Foundation.framework */; };
+		06E42C6315A85520008DD6F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E42C6215A85520008DD6F7 /* CoreGraphics.framework */; };
+		06E42C6915A85520008DD6F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06E42C6715A85520008DD6F7 /* InfoPlist.strings */; };
+		06E42C6B15A85521008DD6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E42C6A15A85521008DD6F7 /* main.m */; };
+		06E42C6F15A85521008DD6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E42C6E15A85521008DD6F7 /* AppDelegate.m */; };
+		06E42C7215A85521008DD6F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E42C7115A85521008DD6F7 /* ViewController.m */; };
+		06E42C7515A85521008DD6F7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06E42C7315A85521008DD6F7 /* ViewController.xib */; };
+		06E42C7C15A85B80008DD6F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E42C7B15A85B80008DD6F7 /* MapKit.framework */; };
+		06E42C7E15A85B89008DD6F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E42C7D15A85B89008DD6F7 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06E42C5A15A85520008DD6F7 /* Recipe 6.8: Routing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6.8: Routing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E42C5E15A85520008DD6F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06E42C6015A85520008DD6F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06E42C6215A85520008DD6F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06E42C6615A85520008DD6F7 /* Recipe 6.8: Routing App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6.8: Routing App-Info.plist"; sourceTree = "<group>"; };
+		06E42C6815A85520008DD6F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06E42C6A15A85521008DD6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06E42C6C15A85521008DD6F7 /* Recipe 6.8: Routing App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6.8: Routing App-Prefix.pch"; sourceTree = "<group>"; };
+		06E42C6D15A85521008DD6F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06E42C6E15A85521008DD6F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06E42C7015A85521008DD6F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06E42C7115A85521008DD6F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06E42C7415A85521008DD6F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		06E42C7B15A85B80008DD6F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		06E42C7D15A85B89008DD6F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06E42C8315A8A54D008DD6F7 /* London.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = London.geojson; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E42C5715A85520008DD6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E42C7E15A85B89008DD6F7 /* CoreLocation.framework in Frameworks */,
+				06E42C7C15A85B80008DD6F7 /* MapKit.framework in Frameworks */,
+				06E42C5F15A85520008DD6F7 /* UIKit.framework in Frameworks */,
+				06E42C6115A85520008DD6F7 /* Foundation.framework in Frameworks */,
+				06E42C6315A85520008DD6F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E42C4F15A85520008DD6F7 = {
+			isa = PBXGroup;
+			children = (
+				06E42C7D15A85B89008DD6F7 /* CoreLocation.framework */,
+				06E42C7B15A85B80008DD6F7 /* MapKit.framework */,
+				06E42C6415A85520008DD6F7 /* Recipe 6.8: Routing App */,
+				06E42C5D15A85520008DD6F7 /* Frameworks */,
+				06E42C5B15A85520008DD6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06E42C5B15A85520008DD6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E42C5A15A85520008DD6F7 /* Recipe 6.8: Routing App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E42C5D15A85520008DD6F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E42C5E15A85520008DD6F7 /* UIKit.framework */,
+				06E42C6015A85520008DD6F7 /* Foundation.framework */,
+				06E42C6215A85520008DD6F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06E42C6415A85520008DD6F7 /* Recipe 6.8: Routing App */ = {
+			isa = PBXGroup;
+			children = (
+				06E42C6D15A85521008DD6F7 /* AppDelegate.h */,
+				06E42C6E15A85521008DD6F7 /* AppDelegate.m */,
+				06E42C7015A85521008DD6F7 /* ViewController.h */,
+				06E42C7115A85521008DD6F7 /* ViewController.m */,
+				06E42C7315A85521008DD6F7 /* ViewController.xib */,
+				06E42C6515A85520008DD6F7 /* Supporting Files */,
+			);
+			path = "Recipe 6.8: Routing App";
+			sourceTree = "<group>";
+		};
+		06E42C6515A85520008DD6F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E42C6615A85520008DD6F7 /* Recipe 6.8: Routing App-Info.plist */,
+				06E42C6715A85520008DD6F7 /* InfoPlist.strings */,
+				06E42C6A15A85521008DD6F7 /* main.m */,
+				06E42C6C15A85521008DD6F7 /* Recipe 6.8: Routing App-Prefix.pch */,
+				06E42C8315A8A54D008DD6F7 /* London.geojson */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E42C5915A85520008DD6F7 /* Recipe 6.8: Routing App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E42C7815A85521008DD6F7 /* Build configuration list for PBXNativeTarget "Recipe 6.8: Routing App" */;
+			buildPhases = (
+				06E42C5615A85520008DD6F7 /* Sources */,
+				06E42C5715A85520008DD6F7 /* Frameworks */,
+				06E42C5815A85520008DD6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6.8: Routing App";
+			productName = "Recipe 6.8: Routing App";
+			productReference = 06E42C5A15A85520008DD6F7 /* Recipe 6.8: Routing App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E42C5115A85520008DD6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 06E42C5415A85520008DD6F7 /* Build configuration list for PBXProject "Recipe 6.8: Routing App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06E42C4F15A85520008DD6F7;
+			productRefGroup = 06E42C5B15A85520008DD6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E42C5915A85520008DD6F7 /* Recipe 6.8: Routing App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E42C5815A85520008DD6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E42C6915A85520008DD6F7 /* InfoPlist.strings in Resources */,
+				06E42C7515A85521008DD6F7 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E42C5615A85520008DD6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E42C6B15A85521008DD6F7 /* main.m in Sources */,
+				06E42C6F15A85521008DD6F7 /* AppDelegate.m in Sources */,
+				06E42C7215A85521008DD6F7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06E42C6715A85520008DD6F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E42C6815A85520008DD6F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06E42C7315A85521008DD6F7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E42C7415A85521008DD6F7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E42C7615A85521008DD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06E42C7715A85521008DD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06E42C7915A85521008DD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.8: Routing App/Recipe 6.8: Routing App-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.8: Routing App/Recipe 6.8: Routing App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06E42C7A15A85521008DD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.8: Routing App/Recipe 6.8: Routing App-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.8: Routing App/Recipe 6.8: Routing App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E42C5415A85520008DD6F7 /* Build configuration list for PBXProject "Recipe 6.8: Routing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E42C7615A85521008DD6F7 /* Debug */,
+				06E42C7715A85521008DD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E42C7815A85521008DD6F7 /* Build configuration list for PBXNativeTarget "Recipe 6.8: Routing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E42C7915A85521008DD6F7 /* Debug */,
+				06E42C7A15A85521008DD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E42C5115A85520008DD6F7 /* Project object */;
+}

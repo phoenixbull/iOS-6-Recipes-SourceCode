@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068CBC6415C5CF8F00D9217A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBC6315C5CF8F00D9217A /* UIKit.framework */; };
+		068CBC6615C5CF8F00D9217A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBC6515C5CF8F00D9217A /* Foundation.framework */; };
+		068CBC6815C5CF8F00D9217A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBC6715C5CF8F00D9217A /* CoreGraphics.framework */; };
+		068CBC6E15C5CF8F00D9217A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068CBC6C15C5CF8F00D9217A /* InfoPlist.strings */; };
+		068CBC7015C5CF8F00D9217A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBC6F15C5CF8F00D9217A /* main.m */; };
+		068CBC7415C5CF8F00D9217A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBC7315C5CF8F00D9217A /* AppDelegate.m */; };
+		068CBC7715C5CF8F00D9217A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBC7615C5CF8F00D9217A /* ViewController.m */; };
+		068CBC7A15C5CF8F00D9217A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068CBC7815C5CF8F00D9217A /* ViewController.xib */; };
+		068CBC8115C5CFB400D9217A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBC8015C5CFB400D9217A /* AVFoundation.framework */; };
+		068CBC8315C5CFD100D9217A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBC8215C5CFD100D9217A /* AudioToolbox.framework */; };
+		068CBC8915C5DE7600D9217A /* midnight-ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 068CBC8815C5DE7600D9217A /* midnight-ride.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068CBC5F15C5CF8F00D9217A /* Recipe 9.1: Playing Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 9.1: Playing Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068CBC6315C5CF8F00D9217A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		068CBC6515C5CF8F00D9217A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		068CBC6715C5CF8F00D9217A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		068CBC6B15C5CF8F00D9217A /* Recipe 9.1: Playing Audio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9.1: Playing Audio-Info.plist"; sourceTree = "<group>"; };
+		068CBC6D15C5CF8F00D9217A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		068CBC6F15C5CF8F00D9217A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		068CBC7115C5CF8F00D9217A /* Recipe 9.1: Playing Audio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 9.1: Playing Audio-Prefix.pch"; sourceTree = "<group>"; };
+		068CBC7215C5CF8F00D9217A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		068CBC7315C5CF8F00D9217A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		068CBC7515C5CF8F00D9217A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		068CBC7615C5CF8F00D9217A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		068CBC7915C5CF8F00D9217A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		068CBC8015C5CFB400D9217A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		068CBC8215C5CFD100D9217A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		068CBC8815C5DE7600D9217A /* midnight-ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "midnight-ride.mp3"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068CBC5C15C5CF8F00D9217A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBC8315C5CFD100D9217A /* AudioToolbox.framework in Frameworks */,
+				068CBC8115C5CFB400D9217A /* AVFoundation.framework in Frameworks */,
+				068CBC6415C5CF8F00D9217A /* UIKit.framework in Frameworks */,
+				068CBC6615C5CF8F00D9217A /* Foundation.framework in Frameworks */,
+				068CBC6815C5CF8F00D9217A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068CBC5415C5CF8F00D9217A = {
+			isa = PBXGroup;
+			children = (
+				068CBC6915C5CF8F00D9217A /* Recipe 9.1: Playing Audio */,
+				068CBC6215C5CF8F00D9217A /* Frameworks */,
+				068CBC6015C5CF8F00D9217A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068CBC6015C5CF8F00D9217A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068CBC5F15C5CF8F00D9217A /* Recipe 9.1: Playing Audio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068CBC6215C5CF8F00D9217A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068CBC8215C5CFD100D9217A /* AudioToolbox.framework */,
+				068CBC8015C5CFB400D9217A /* AVFoundation.framework */,
+				068CBC6315C5CF8F00D9217A /* UIKit.framework */,
+				068CBC6515C5CF8F00D9217A /* Foundation.framework */,
+				068CBC6715C5CF8F00D9217A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		068CBC6915C5CF8F00D9217A /* Recipe 9.1: Playing Audio */ = {
+			isa = PBXGroup;
+			children = (
+				068CBC7215C5CF8F00D9217A /* AppDelegate.h */,
+				068CBC7315C5CF8F00D9217A /* AppDelegate.m */,
+				068CBC7515C5CF8F00D9217A /* ViewController.h */,
+				068CBC7615C5CF8F00D9217A /* ViewController.m */,
+				068CBC7815C5CF8F00D9217A /* ViewController.xib */,
+				068CBC6A15C5CF8F00D9217A /* Supporting Files */,
+			);
+			path = "Recipe 9.1: Playing Audio";
+			sourceTree = "<group>";
+		};
+		068CBC6A15C5CF8F00D9217A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068CBC8815C5DE7600D9217A /* midnight-ride.mp3 */,
+				068CBC6B15C5CF8F00D9217A /* Recipe 9.1: Playing Audio-Info.plist */,
+				068CBC6C15C5CF8F00D9217A /* InfoPlist.strings */,
+				068CBC6F15C5CF8F00D9217A /* main.m */,
+				068CBC7115C5CF8F00D9217A /* Recipe 9.1: Playing Audio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068CBC5E15C5CF8F00D9217A /* Recipe 9.1: Playing Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068CBC7D15C5CF8F00D9217A /* Build configuration list for PBXNativeTarget "Recipe 9.1: Playing Audio" */;
+			buildPhases = (
+				068CBC5B15C5CF8F00D9217A /* Sources */,
+				068CBC5C15C5CF8F00D9217A /* Frameworks */,
+				068CBC5D15C5CF8F00D9217A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 9.1: Playing Audio";
+			productName = "Recipe 9.1: Playing Audio";
+			productReference = 068CBC5F15C5CF8F00D9217A /* Recipe 9.1: Playing Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068CBC5615C5CF8F00D9217A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 068CBC5915C5CF8F00D9217A /* Build configuration list for PBXProject "Recipe 9.1: Playing Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 068CBC5415C5CF8F00D9217A;
+			productRefGroup = 068CBC6015C5CF8F00D9217A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068CBC5E15C5CF8F00D9217A /* Recipe 9.1: Playing Audio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068CBC5D15C5CF8F00D9217A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBC6E15C5CF8F00D9217A /* InfoPlist.strings in Resources */,
+				068CBC7A15C5CF8F00D9217A /* ViewController.xib in Resources */,
+				068CBC8915C5DE7600D9217A /* midnight-ride.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068CBC5B15C5CF8F00D9217A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBC7015C5CF8F00D9217A /* main.m in Sources */,
+				068CBC7415C5CF8F00D9217A /* AppDelegate.m in Sources */,
+				068CBC7715C5CF8F00D9217A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		068CBC6C15C5CF8F00D9217A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068CBC6D15C5CF8F00D9217A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		068CBC7815C5CF8F00D9217A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068CBC7915C5CF8F00D9217A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068CBC7B15C5CF8F00D9217A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		068CBC7C15C5CF8F00D9217A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068CBC7E15C5CF8F00D9217A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9.1: Playing Audio/Recipe 9.1: Playing Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9.1: Playing Audio/Recipe 9.1: Playing Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		068CBC7F15C5CF8F00D9217A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9.1: Playing Audio/Recipe 9.1: Playing Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9.1: Playing Audio/Recipe 9.1: Playing Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068CBC5915C5CF8F00D9217A /* Build configuration list for PBXProject "Recipe 9.1: Playing Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBC7B15C5CF8F00D9217A /* Debug */,
+				068CBC7C15C5CF8F00D9217A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068CBC7D15C5CF8F00D9217A /* Build configuration list for PBXNativeTarget "Recipe 9.1: Playing Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBC7E15C5CF8F00D9217A /* Debug */,
+				068CBC7F15C5CF8F00D9217A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068CBC5615C5CF8F00D9217A /* Project object */;
+}

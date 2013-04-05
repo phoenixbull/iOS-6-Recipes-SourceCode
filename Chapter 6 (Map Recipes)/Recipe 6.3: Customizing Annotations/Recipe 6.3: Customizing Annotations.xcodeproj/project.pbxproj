@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0688BAC415A3214000A261D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688BAC315A3214000A261D2 /* UIKit.framework */; };
+		0688BAC615A3214000A261D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688BAC515A3214000A261D2 /* Foundation.framework */; };
+		0688BAC815A3214000A261D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688BAC715A3214000A261D2 /* CoreGraphics.framework */; };
+		0688BACE15A3214000A261D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0688BACC15A3214000A261D2 /* InfoPlist.strings */; };
+		0688BAD015A3214000A261D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BACF15A3214000A261D2 /* main.m */; };
+		0688BAD415A3214000A261D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BAD315A3214000A261D2 /* AppDelegate.m */; };
+		0688BAD715A3214000A261D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BAD615A3214000A261D2 /* ViewController.m */; };
+		0688BADA15A3214000A261D2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0688BAD815A3214000A261D2 /* ViewController.xib */; };
+		0688BAE115A3215400A261D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688BAE015A3215400A261D2 /* MapKit.framework */; };
+		0688BAE315A3215C00A261D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688BAE215A3215C00A261D2 /* CoreLocation.framework */; };
+		0688BAE815A323FF00A261D2 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BAE715A323FF00A261D2 /* MyAnnotation.m */; };
+		0688BAEB15A329C100A261D2 /* MyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BAEA15A329C100A261D2 /* MyAnnotationView.m */; };
+		0688BAEF15A3321300A261D2 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688BAED15A3321300A261D2 /* DetailedViewController.m */; };
+		0688BAF015A3321300A261D2 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0688BAEE15A3321300A261D2 /* DetailedViewController.xib */; };
+		06C1448715E79C1F00F0F8F0 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C1448615E79C1F00F0F8F0 /* overlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0688BABF15A3214000A261D2 /* Recipe 6.3: Customizing Annotations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6.3: Customizing Annotations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0688BAC315A3214000A261D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0688BAC515A3214000A261D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0688BAC715A3214000A261D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0688BACB15A3214000A261D2 /* Recipe 6.3: Customizing Annotations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6.3: Customizing Annotations-Info.plist"; sourceTree = "<group>"; };
+		0688BACD15A3214000A261D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0688BACF15A3214000A261D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0688BAD115A3214000A261D2 /* Recipe 6.3: Customizing Annotations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6.3: Customizing Annotations-Prefix.pch"; sourceTree = "<group>"; };
+		0688BAD215A3214000A261D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0688BAD315A3214000A261D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0688BAD515A3214000A261D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0688BAD615A3214000A261D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0688BAD915A3214000A261D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0688BAE015A3215400A261D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0688BAE215A3215C00A261D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0688BAE615A323FF00A261D2 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		0688BAE715A323FF00A261D2 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		0688BAE915A329C100A261D2 /* MyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotationView.h; sourceTree = "<group>"; };
+		0688BAEA15A329C100A261D2 /* MyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotationView.m; sourceTree = "<group>"; };
+		0688BAEC15A3321300A261D2 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		0688BAED15A3321300A261D2 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		0688BAEE15A3321300A261D2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
+		06C1448615E79C1F00F0F8F0 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay.png; path = ../../../overlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0688BABC15A3214000A261D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0688BAE315A3215C00A261D2 /* CoreLocation.framework in Frameworks */,
+				0688BAE115A3215400A261D2 /* MapKit.framework in Frameworks */,
+				0688BAC415A3214000A261D2 /* UIKit.framework in Frameworks */,
+				0688BAC615A3214000A261D2 /* Foundation.framework in Frameworks */,
+				0688BAC815A3214000A261D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0688BAB415A3214000A261D2 = {
+			isa = PBXGroup;
+			children = (
+				0688BAE215A3215C00A261D2 /* CoreLocation.framework */,
+				0688BAE015A3215400A261D2 /* MapKit.framework */,
+				0688BAC915A3214000A261D2 /* Recipe 6.3: Customizing Annotations */,
+				0688BAC215A3214000A261D2 /* Frameworks */,
+				0688BAC015A3214000A261D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0688BAC015A3214000A261D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0688BABF15A3214000A261D2 /* Recipe 6.3: Customizing Annotations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0688BAC215A3214000A261D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0688BAC315A3214000A261D2 /* UIKit.framework */,
+				0688BAC515A3214000A261D2 /* Foundation.framework */,
+				0688BAC715A3214000A261D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0688BAC915A3214000A261D2 /* Recipe 6.3: Customizing Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				0688BAD215A3214000A261D2 /* AppDelegate.h */,
+				0688BAD315A3214000A261D2 /* AppDelegate.m */,
+				0688BAD515A3214000A261D2 /* ViewController.h */,
+				0688BAD615A3214000A261D2 /* ViewController.m */,
+				0688BAD815A3214000A261D2 /* ViewController.xib */,
+				0688BACA15A3214000A261D2 /* Supporting Files */,
+				0688BAE615A323FF00A261D2 /* MyAnnotation.h */,
+				0688BAE715A323FF00A261D2 /* MyAnnotation.m */,
+				0688BAE915A329C100A261D2 /* MyAnnotationView.h */,
+				0688BAEA15A329C100A261D2 /* MyAnnotationView.m */,
+				0688BAEC15A3321300A261D2 /* DetailedViewController.h */,
+				0688BAED15A3321300A261D2 /* DetailedViewController.m */,
+				0688BAEE15A3321300A261D2 /* DetailedViewController.xib */,
+			);
+			path = "Recipe 6.3: Customizing Annotations";
+			sourceTree = "<group>";
+		};
+		0688BACA15A3214000A261D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C1448615E79C1F00F0F8F0 /* overlay.png */,
+				0688BACB15A3214000A261D2 /* Recipe 6.3: Customizing Annotations-Info.plist */,
+				0688BACC15A3214000A261D2 /* InfoPlist.strings */,
+				0688BACF15A3214000A261D2 /* main.m */,
+				0688BAD115A3214000A261D2 /* Recipe 6.3: Customizing Annotations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0688BABE15A3214000A261D2 /* Recipe 6.3: Customizing Annotations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0688BADD15A3214000A261D2 /* Build configuration list for PBXNativeTarget "Recipe 6.3: Customizing Annotations" */;
+			buildPhases = (
+				0688BABB15A3214000A261D2 /* Sources */,
+				0688BABC15A3214000A261D2 /* Frameworks */,
+				0688BABD15A3214000A261D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6.3: Customizing Annotations";
+			productName = "Recipe 6.3: Customizing Annotations";
+			productReference = 0688BABF15A3214000A261D2 /* Recipe 6.3: Customizing Annotations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0688BAB615A3214000A261D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 0688BAB915A3214000A261D2 /* Build configuration list for PBXProject "Recipe 6.3: Customizing Annotations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0688BAB415A3214000A261D2;
+			productRefGroup = 0688BAC015A3214000A261D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0688BABE15A3214000A261D2 /* Recipe 6.3: Customizing Annotations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0688BABD15A3214000A261D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0688BACE15A3214000A261D2 /* InfoPlist.strings in Resources */,
+				0688BADA15A3214000A261D2 /* ViewController.xib in Resources */,
+				0688BAF015A3321300A261D2 /* DetailedViewController.xib in Resources */,
+				06C1448715E79C1F00F0F8F0 /* overlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0688BABB15A3214000A261D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0688BAD015A3214000A261D2 /* main.m in Sources */,
+				0688BAD415A3214000A261D2 /* AppDelegate.m in Sources */,
+				0688BAD715A3214000A261D2 /* ViewController.m in Sources */,
+				0688BAE815A323FF00A261D2 /* MyAnnotation.m in Sources */,
+				0688BAEB15A329C100A261D2 /* MyAnnotationView.m in Sources */,
+				0688BAEF15A3321300A261D2 /* DetailedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0688BACC15A3214000A261D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0688BACD15A3214000A261D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0688BAD815A3214000A261D2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0688BAD915A3214000A261D2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0688BADB15A3214000A261D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0688BADC15A3214000A261D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0688BADE15A3214000A261D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.3: Customizing Annotations/Recipe 6.3: Customizing Annotations-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.3: Customizing Annotations/Recipe 6.3: Customizing Annotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0688BADF15A3214000A261D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.3: Customizing Annotations/Recipe 6.3: Customizing Annotations-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.3: Customizing Annotations/Recipe 6.3: Customizing Annotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0688BAB915A3214000A261D2 /* Build configuration list for PBXProject "Recipe 6.3: Customizing Annotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0688BADB15A3214000A261D2 /* Debug */,
+				0688BADC15A3214000A261D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0688BADD15A3214000A261D2 /* Build configuration list for PBXNativeTarget "Recipe 6.3: Customizing Annotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0688BADE15A3214000A261D2 /* Debug */,
+				0688BADF15A3214000A261D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0688BAB615A3214000A261D2 /* Project object */;
+}

@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0604BA5F158CB50C0059093E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BA5E158CB50C0059093E /* UIKit.framework */; };
+		0604BA61158CB50C0059093E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BA60158CB50C0059093E /* Foundation.framework */; };
+		0604BA63158CB50C0059093E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BA62158CB50C0059093E /* CoreGraphics.framework */; };
+		0604BA69158CB50C0059093E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0604BA67158CB50C0059093E /* InfoPlist.strings */; };
+		0604BA6B158CB50C0059093E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BA6A158CB50C0059093E /* main.m */; };
+		0604BA6F158CB50C0059093E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BA6E158CB50C0059093E /* AppDelegate.m */; };
+		0604BA72158CB50C0059093E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BA71158CB50C0059093E /* ViewController.m */; };
+		0604BA75158CB50C0059093E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0604BA73158CB50C0059093E /* ViewController.xib */; };
+		0604BA7C158CC1EC0059093E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BA7B158CC1EC0059093E /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0604BA5A158CB50C0059093E /* Recipe 5.2: Raw Motion Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 5.2: Raw Motion Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604BA5E158CB50C0059093E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0604BA60158CB50C0059093E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0604BA62158CB50C0059093E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0604BA66158CB50C0059093E /* Recipe 5.2: Raw Motion Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 5.2: Raw Motion Data-Info.plist"; sourceTree = "<group>"; };
+		0604BA68158CB50C0059093E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0604BA6A158CB50C0059093E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0604BA6C158CB50C0059093E /* Recipe 5.2: Raw Motion Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 5.2: Raw Motion Data-Prefix.pch"; sourceTree = "<group>"; };
+		0604BA6D158CB50C0059093E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0604BA6E158CB50C0059093E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0604BA70158CB50C0059093E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0604BA71158CB50C0059093E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0604BA74158CB50C0059093E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0604BA7B158CC1EC0059093E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0604BA57158CB50C0059093E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BA7C158CC1EC0059093E /* CoreMotion.framework in Frameworks */,
+				0604BA5F158CB50C0059093E /* UIKit.framework in Frameworks */,
+				0604BA61158CB50C0059093E /* Foundation.framework in Frameworks */,
+				0604BA63158CB50C0059093E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0604BA4F158CB50C0059093E = {
+			isa = PBXGroup;
+			children = (
+				0604BA7B158CC1EC0059093E /* CoreMotion.framework */,
+				0604BA64158CB50C0059093E /* Recipe 5.2: Raw Motion Data */,
+				0604BA5D158CB50C0059093E /* Frameworks */,
+				0604BA5B158CB50C0059093E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0604BA5B158CB50C0059093E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0604BA5A158CB50C0059093E /* Recipe 5.2: Raw Motion Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0604BA5D158CB50C0059093E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0604BA5E158CB50C0059093E /* UIKit.framework */,
+				0604BA60158CB50C0059093E /* Foundation.framework */,
+				0604BA62158CB50C0059093E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0604BA64158CB50C0059093E /* Recipe 5.2: Raw Motion Data */ = {
+			isa = PBXGroup;
+			children = (
+				0604BA6D158CB50C0059093E /* AppDelegate.h */,
+				0604BA6E158CB50C0059093E /* AppDelegate.m */,
+				0604BA70158CB50C0059093E /* ViewController.h */,
+				0604BA71158CB50C0059093E /* ViewController.m */,
+				0604BA73158CB50C0059093E /* ViewController.xib */,
+				0604BA65158CB50C0059093E /* Supporting Files */,
+			);
+			path = "Recipe 5.2: Raw Motion Data";
+			sourceTree = "<group>";
+		};
+		0604BA65158CB50C0059093E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0604BA66158CB50C0059093E /* Recipe 5.2: Raw Motion Data-Info.plist */,
+				0604BA67158CB50C0059093E /* InfoPlist.strings */,
+				0604BA6A158CB50C0059093E /* main.m */,
+				0604BA6C158CB50C0059093E /* Recipe 5.2: Raw Motion Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0604BA59158CB50C0059093E /* Recipe 5.2: Raw Motion Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604BA78158CB50C0059093E /* Build configuration list for PBXNativeTarget "Recipe 5.2: Raw Motion Data" */;
+			buildPhases = (
+				0604BA56158CB50C0059093E /* Sources */,
+				0604BA57158CB50C0059093E /* Frameworks */,
+				0604BA58158CB50C0059093E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 5.2: Raw Motion Data";
+			productName = "Recipe 5.2: Raw Motion Data";
+			productReference = 0604BA5A158CB50C0059093E /* Recipe 5.2: Raw Motion Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0604BA51158CB50C0059093E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 0604BA54158CB50C0059093E /* Build configuration list for PBXProject "Recipe 5.2: Raw Motion Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0604BA4F158CB50C0059093E;
+			productRefGroup = 0604BA5B158CB50C0059093E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0604BA59158CB50C0059093E /* Recipe 5.2: Raw Motion Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0604BA58158CB50C0059093E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BA69158CB50C0059093E /* InfoPlist.strings in Resources */,
+				0604BA75158CB50C0059093E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0604BA56158CB50C0059093E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BA6B158CB50C0059093E /* main.m in Sources */,
+				0604BA6F158CB50C0059093E /* AppDelegate.m in Sources */,
+				0604BA72158CB50C0059093E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0604BA67158CB50C0059093E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604BA68158CB50C0059093E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0604BA73158CB50C0059093E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604BA74158CB50C0059093E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0604BA76158CB50C0059093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0604BA77158CB50C0059093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0604BA79158CB50C0059093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5.2: Raw Motion Data/Recipe 5.2: Raw Motion Data-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5.2: Raw Motion Data/Recipe 5.2: Raw Motion Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0604BA7A158CB50C0059093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5.2: Raw Motion Data/Recipe 5.2: Raw Motion Data-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5.2: Raw Motion Data/Recipe 5.2: Raw Motion Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0604BA54158CB50C0059093E /* Build configuration list for PBXProject "Recipe 5.2: Raw Motion Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604BA76158CB50C0059093E /* Debug */,
+				0604BA77158CB50C0059093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604BA78158CB50C0059093E /* Build configuration list for PBXNativeTarget "Recipe 5.2: Raw Motion Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604BA79158CB50C0059093E /* Debug */,
+				0604BA7A158CB50C0059093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0604BA51158CB50C0059093E /* Project object */;
+}

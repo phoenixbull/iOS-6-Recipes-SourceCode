@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068CBCC815C7CB7400D9217A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBCC715C7CB7400D9217A /* UIKit.framework */; };
+		068CBCCA15C7CB7400D9217A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBCC915C7CB7400D9217A /* Foundation.framework */; };
+		068CBCCC15C7CB7400D9217A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBCCB15C7CB7400D9217A /* CoreGraphics.framework */; };
+		068CBCD215C7CB7400D9217A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068CBCD015C7CB7400D9217A /* InfoPlist.strings */; };
+		068CBCD415C7CB7400D9217A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBCD315C7CB7400D9217A /* main.m */; };
+		068CBCD815C7CB7400D9217A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBCD715C7CB7400D9217A /* AppDelegate.m */; };
+		068CBCDB15C7CB7400D9217A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CBCDA15C7CB7400D9217A /* ViewController.m */; };
+		068CBCDE15C7CB7400D9217A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068CBCDC15C7CB7400D9217A /* ViewController.xib */; };
+		068CBCE515C7CB9200D9217A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068CBCE415C7CB9200D9217A /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068CBCC315C7CB7400D9217A /* Recipe 9.3: Accessing Music Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 9.3: Accessing Music Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068CBCC715C7CB7400D9217A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		068CBCC915C7CB7400D9217A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		068CBCCB15C7CB7400D9217A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		068CBCCF15C7CB7400D9217A /* Recipe 9.3: Accessing Music Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9.3: Accessing Music Library-Info.plist"; sourceTree = "<group>"; };
+		068CBCD115C7CB7400D9217A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		068CBCD315C7CB7400D9217A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		068CBCD515C7CB7400D9217A /* Recipe 9.3: Accessing Music Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 9.3: Accessing Music Library-Prefix.pch"; sourceTree = "<group>"; };
+		068CBCD615C7CB7400D9217A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		068CBCD715C7CB7400D9217A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		068CBCD915C7CB7400D9217A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		068CBCDA15C7CB7400D9217A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		068CBCDD15C7CB7400D9217A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		068CBCE415C7CB9200D9217A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068CBCC015C7CB7400D9217A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBCE515C7CB9200D9217A /* MediaPlayer.framework in Frameworks */,
+				068CBCC815C7CB7400D9217A /* UIKit.framework in Frameworks */,
+				068CBCCA15C7CB7400D9217A /* Foundation.framework in Frameworks */,
+				068CBCCC15C7CB7400D9217A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068CBCB815C7CB7400D9217A = {
+			isa = PBXGroup;
+			children = (
+				068CBCCD15C7CB7400D9217A /* Recipe 9.3: Accessing Music Library */,
+				068CBCC615C7CB7400D9217A /* Frameworks */,
+				068CBCC415C7CB7400D9217A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068CBCC415C7CB7400D9217A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068CBCC315C7CB7400D9217A /* Recipe 9.3: Accessing Music Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068CBCC615C7CB7400D9217A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068CBCE415C7CB9200D9217A /* MediaPlayer.framework */,
+				068CBCC715C7CB7400D9217A /* UIKit.framework */,
+				068CBCC915C7CB7400D9217A /* Foundation.framework */,
+				068CBCCB15C7CB7400D9217A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		068CBCCD15C7CB7400D9217A /* Recipe 9.3: Accessing Music Library */ = {
+			isa = PBXGroup;
+			children = (
+				068CBCD615C7CB7400D9217A /* AppDelegate.h */,
+				068CBCD715C7CB7400D9217A /* AppDelegate.m */,
+				068CBCD915C7CB7400D9217A /* ViewController.h */,
+				068CBCDA15C7CB7400D9217A /* ViewController.m */,
+				068CBCDC15C7CB7400D9217A /* ViewController.xib */,
+				068CBCCE15C7CB7400D9217A /* Supporting Files */,
+			);
+			path = "Recipe 9.3: Accessing Music Library";
+			sourceTree = "<group>";
+		};
+		068CBCCE15C7CB7400D9217A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068CBCCF15C7CB7400D9217A /* Recipe 9.3: Accessing Music Library-Info.plist */,
+				068CBCD015C7CB7400D9217A /* InfoPlist.strings */,
+				068CBCD315C7CB7400D9217A /* main.m */,
+				068CBCD515C7CB7400D9217A /* Recipe 9.3: Accessing Music Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068CBCC215C7CB7400D9217A /* Recipe 9.3: Accessing Music Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068CBCE115C7CB7400D9217A /* Build configuration list for PBXNativeTarget "Recipe 9.3: Accessing Music Library" */;
+			buildPhases = (
+				068CBCBF15C7CB7400D9217A /* Sources */,
+				068CBCC015C7CB7400D9217A /* Frameworks */,
+				068CBCC115C7CB7400D9217A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 9.3: Accessing Music Library";
+			productName = "Recipe 9.3: Accessing Music Library";
+			productReference = 068CBCC315C7CB7400D9217A /* Recipe 9.3: Accessing Music Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068CBCBA15C7CB7400D9217A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 068CBCBD15C7CB7400D9217A /* Build configuration list for PBXProject "Recipe 9.3: Accessing Music Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 068CBCB815C7CB7400D9217A;
+			productRefGroup = 068CBCC415C7CB7400D9217A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068CBCC215C7CB7400D9217A /* Recipe 9.3: Accessing Music Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068CBCC115C7CB7400D9217A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBCD215C7CB7400D9217A /* InfoPlist.strings in Resources */,
+				068CBCDE15C7CB7400D9217A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068CBCBF15C7CB7400D9217A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068CBCD415C7CB7400D9217A /* main.m in Sources */,
+				068CBCD815C7CB7400D9217A /* AppDelegate.m in Sources */,
+				068CBCDB15C7CB7400D9217A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		068CBCD015C7CB7400D9217A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068CBCD115C7CB7400D9217A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		068CBCDC15C7CB7400D9217A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068CBCDD15C7CB7400D9217A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068CBCDF15C7CB7400D9217A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		068CBCE015C7CB7400D9217A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068CBCE215C7CB7400D9217A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9.3: Accessing Music Library/Recipe 9.3: Accessing Music Library-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9.3: Accessing Music Library/Recipe 9.3: Accessing Music Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		068CBCE315C7CB7400D9217A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9.3: Accessing Music Library/Recipe 9.3: Accessing Music Library-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9.3: Accessing Music Library/Recipe 9.3: Accessing Music Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068CBCBD15C7CB7400D9217A /* Build configuration list for PBXProject "Recipe 9.3: Accessing Music Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBCDF15C7CB7400D9217A /* Debug */,
+				068CBCE015C7CB7400D9217A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068CBCE115C7CB7400D9217A /* Build configuration list for PBXNativeTarget "Recipe 9.3: Accessing Music Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CBCE215C7CB7400D9217A /* Debug */,
+				068CBCE315C7CB7400D9217A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068CBCBA15C7CB7400D9217A /* Project object */;
+}

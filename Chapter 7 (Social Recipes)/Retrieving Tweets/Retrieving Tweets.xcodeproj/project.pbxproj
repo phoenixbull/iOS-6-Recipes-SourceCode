@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0699CBE215DEE45B0054A605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699CBE115DEE45B0054A605 /* UIKit.framework */; };
+		0699CBE415DEE45B0054A605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699CBE315DEE45B0054A605 /* Foundation.framework */; };
+		0699CBE615DEE45B0054A605 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699CBE515DEE45B0054A605 /* CoreGraphics.framework */; };
+		0699CBEC15DEE45B0054A605 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0699CBEA15DEE45B0054A605 /* InfoPlist.strings */; };
+		0699CBEE15DEE45B0054A605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CBED15DEE45B0054A605 /* main.m */; };
+		0699CBF215DEE45B0054A605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CBF115DEE45B0054A605 /* AppDelegate.m */; };
+		0699CBF515DEE45B0054A605 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CBF415DEE45B0054A605 /* FirstViewController.m */; };
+		0699CBF715DEE45B0054A605 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0699CBF615DEE45B0054A605 /* first.png */; };
+		0699CBF915DEE45B0054A605 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0699CBF815DEE45B0054A605 /* first@2x.png */; };
+		0699CBFC15DEE45B0054A605 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699CBFB15DEE45B0054A605 /* SecondViewController.m */; };
+		0699CBFE15DEE45B0054A605 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0699CBFD15DEE45B0054A605 /* second.png */; };
+		0699CC0015DEE45B0054A605 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0699CBFF15DEE45B0054A605 /* second@2x.png */; };
+		0699CC0315DEE45B0054A605 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0699CC0115DEE45B0054A605 /* FirstViewController.xib */; };
+		0699CC0615DEE45B0054A605 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0699CC0415DEE45B0054A605 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0699CBDD15DEE45B0054A605 /* Retrieving Tweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving Tweets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0699CBE115DEE45B0054A605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0699CBE315DEE45B0054A605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0699CBE515DEE45B0054A605 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0699CBE915DEE45B0054A605 /* Retrieving Tweets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Tweets-Info.plist"; sourceTree = "<group>"; };
+		0699CBEB15DEE45B0054A605 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0699CBED15DEE45B0054A605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0699CBEF15DEE45B0054A605 /* Retrieving Tweets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving Tweets-Prefix.pch"; sourceTree = "<group>"; };
+		0699CBF015DEE45B0054A605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0699CBF115DEE45B0054A605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0699CBF315DEE45B0054A605 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0699CBF415DEE45B0054A605 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0699CBF615DEE45B0054A605 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		0699CBF815DEE45B0054A605 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		0699CBFA15DEE45B0054A605 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0699CBFB15DEE45B0054A605 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0699CBFD15DEE45B0054A605 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		0699CBFF15DEE45B0054A605 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0699CC0215DEE45B0054A605 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		0699CC0515DEE45B0054A605 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0699CBDA15DEE45B0054A605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699CBE215DEE45B0054A605 /* UIKit.framework in Frameworks */,
+				0699CBE415DEE45B0054A605 /* Foundation.framework in Frameworks */,
+				0699CBE615DEE45B0054A605 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0699CBD215DEE45B0054A605 = {
+			isa = PBXGroup;
+			children = (
+				0699CBE715DEE45B0054A605 /* Retrieving Tweets */,
+				0699CBE015DEE45B0054A605 /* Frameworks */,
+				0699CBDE15DEE45B0054A605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0699CBDE15DEE45B0054A605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0699CBDD15DEE45B0054A605 /* Retrieving Tweets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0699CBE015DEE45B0054A605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0699CBE115DEE45B0054A605 /* UIKit.framework */,
+				0699CBE315DEE45B0054A605 /* Foundation.framework */,
+				0699CBE515DEE45B0054A605 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0699CBE715DEE45B0054A605 /* Retrieving Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				0699CBF015DEE45B0054A605 /* AppDelegate.h */,
+				0699CBF115DEE45B0054A605 /* AppDelegate.m */,
+				0699CBF315DEE45B0054A605 /* FirstViewController.h */,
+				0699CBF415DEE45B0054A605 /* FirstViewController.m */,
+				0699CBF615DEE45B0054A605 /* first.png */,
+				0699CBF815DEE45B0054A605 /* first@2x.png */,
+				0699CBFA15DEE45B0054A605 /* SecondViewController.h */,
+				0699CBFB15DEE45B0054A605 /* SecondViewController.m */,
+				0699CBFD15DEE45B0054A605 /* second.png */,
+				0699CBFF15DEE45B0054A605 /* second@2x.png */,
+				0699CC0115DEE45B0054A605 /* FirstViewController.xib */,
+				0699CC0415DEE45B0054A605 /* SecondViewController.xib */,
+				0699CBE815DEE45B0054A605 /* Supporting Files */,
+			);
+			path = "Retrieving Tweets";
+			sourceTree = "<group>";
+		};
+		0699CBE815DEE45B0054A605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0699CBE915DEE45B0054A605 /* Retrieving Tweets-Info.plist */,
+				0699CBEA15DEE45B0054A605 /* InfoPlist.strings */,
+				0699CBED15DEE45B0054A605 /* main.m */,
+				0699CBEF15DEE45B0054A605 /* Retrieving Tweets-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0699CBDC15DEE45B0054A605 /* Retrieving Tweets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0699CC0915DEE45B0054A605 /* Build configuration list for PBXNativeTarget "Retrieving Tweets" */;
+			buildPhases = (
+				0699CBD915DEE45B0054A605 /* Sources */,
+				0699CBDA15DEE45B0054A605 /* Frameworks */,
+				0699CBDB15DEE45B0054A605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving Tweets";
+			productName = "Retrieving Tweets";
+			productReference = 0699CBDD15DEE45B0054A605 /* Retrieving Tweets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0699CBD415DEE45B0054A605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 0699CBD715DEE45B0054A605 /* Build configuration list for PBXProject "Retrieving Tweets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0699CBD215DEE45B0054A605;
+			productRefGroup = 0699CBDE15DEE45B0054A605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0699CBDC15DEE45B0054A605 /* Retrieving Tweets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0699CBDB15DEE45B0054A605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699CBEC15DEE45B0054A605 /* InfoPlist.strings in Resources */,
+				0699CBF715DEE45B0054A605 /* first.png in Resources */,
+				0699CBF915DEE45B0054A605 /* first@2x.png in Resources */,
+				0699CBFE15DEE45B0054A605 /* second.png in Resources */,
+				0699CC0015DEE45B0054A605 /* second@2x.png in Resources */,
+				0699CC0315DEE45B0054A605 /* FirstViewController.xib in Resources */,
+				0699CC0615DEE45B0054A605 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0699CBD915DEE45B0054A605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699CBEE15DEE45B0054A605 /* main.m in Sources */,
+				0699CBF215DEE45B0054A605 /* AppDelegate.m in Sources */,
+				0699CBF515DEE45B0054A605 /* FirstViewController.m in Sources */,
+				0699CBFC15DEE45B0054A605 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0699CBEA15DEE45B0054A605 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699CBEB15DEE45B0054A605 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0699CC0115DEE45B0054A605 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699CC0215DEE45B0054A605 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		0699CC0415DEE45B0054A605 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699CC0515DEE45B0054A605 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0699CC0715DEE45B0054A605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0699CC0815DEE45B0054A605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0699CC0A15DEE45B0054A605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Tweets/Retrieving Tweets-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Tweets/Retrieving Tweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0699CC0B15DEE45B0054A605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Tweets/Retrieving Tweets-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Tweets/Retrieving Tweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0699CBD715DEE45B0054A605 /* Build configuration list for PBXProject "Retrieving Tweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699CC0715DEE45B0054A605 /* Debug */,
+				0699CC0815DEE45B0054A605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0699CC0915DEE45B0054A605 /* Build configuration list for PBXNativeTarget "Retrieving Tweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699CC0A15DEE45B0054A605 /* Debug */,
+				0699CC0B15DEE45B0054A605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0699CBD415DEE45B0054A605 /* Project object */;
+}

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067E44ED159850A1008E18CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E44EC159850A1008E18CF /* UIKit.framework */; };
+		067E44EF159850A1008E18CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E44EE159850A1008E18CF /* Foundation.framework */; };
+		067E44F1159850A1008E18CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E44F0159850A1008E18CF /* CoreGraphics.framework */; };
+		067E44F7159850A1008E18CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 067E44F5159850A1008E18CF /* InfoPlist.strings */; };
+		067E44F9159850A1008E18CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E44F8159850A1008E18CF /* main.m */; };
+		067E44FD159850A1008E18CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E44FC159850A1008E18CF /* AppDelegate.m */; };
+		067E4500159850A1008E18CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E44FF159850A1008E18CF /* ViewController.m */; };
+		067E4503159850A1008E18CF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067E4501159850A1008E18CF /* ViewController.xib */; };
+		067E450A159850B1008E18CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E4509159850B1008E18CF /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067E44E8159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 4.3: Determining Magnetic Bearing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067E44EC159850A1008E18CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		067E44EE159850A1008E18CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		067E44F0159850A1008E18CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		067E44F4159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4.3: Determining Magnetic Bearing-Info.plist"; sourceTree = "<group>"; };
+		067E44F6159850A1008E18CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		067E44F8159850A1008E18CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		067E44FA159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 4.3: Determining Magnetic Bearing-Prefix.pch"; sourceTree = "<group>"; };
+		067E44FB159850A1008E18CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		067E44FC159850A1008E18CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		067E44FE159850A1008E18CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		067E44FF159850A1008E18CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		067E4502159850A1008E18CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		067E4509159850B1008E18CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067E44E5159850A1008E18CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E450A159850B1008E18CF /* CoreLocation.framework in Frameworks */,
+				067E44ED159850A1008E18CF /* UIKit.framework in Frameworks */,
+				067E44EF159850A1008E18CF /* Foundation.framework in Frameworks */,
+				067E44F1159850A1008E18CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E44DD159850A1008E18CF = {
+			isa = PBXGroup;
+			children = (
+				067E4509159850B1008E18CF /* CoreLocation.framework */,
+				067E44F2159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing */,
+				067E44EB159850A1008E18CF /* Frameworks */,
+				067E44E9159850A1008E18CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		067E44E9159850A1008E18CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067E44E8159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067E44EB159850A1008E18CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067E44EC159850A1008E18CF /* UIKit.framework */,
+				067E44EE159850A1008E18CF /* Foundation.framework */,
+				067E44F0159850A1008E18CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		067E44F2159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing */ = {
+			isa = PBXGroup;
+			children = (
+				067E44FB159850A1008E18CF /* AppDelegate.h */,
+				067E44FC159850A1008E18CF /* AppDelegate.m */,
+				067E44FE159850A1008E18CF /* ViewController.h */,
+				067E44FF159850A1008E18CF /* ViewController.m */,
+				067E4501159850A1008E18CF /* ViewController.xib */,
+				067E44F3159850A1008E18CF /* Supporting Files */,
+			);
+			path = "Recipe 4.3: Determining Magnetic Bearing";
+			sourceTree = "<group>";
+		};
+		067E44F3159850A1008E18CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067E44F4159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing-Info.plist */,
+				067E44F5159850A1008E18CF /* InfoPlist.strings */,
+				067E44F8159850A1008E18CF /* main.m */,
+				067E44FA159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067E44E7159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067E4506159850A1008E18CF /* Build configuration list for PBXNativeTarget "Recipe 4.3: Determining Magnetic Bearing" */;
+			buildPhases = (
+				067E44E4159850A1008E18CF /* Sources */,
+				067E44E5159850A1008E18CF /* Frameworks */,
+				067E44E6159850A1008E18CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 4.3: Determining Magnetic Bearing";
+			productName = "Recipe 4.3: Determining Magnetic Bearing";
+			productReference = 067E44E8159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067E44DF159850A1008E18CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 067E44E2159850A1008E18CF /* Build configuration list for PBXProject "Recipe 4.3: Determining Magnetic Bearing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 067E44DD159850A1008E18CF;
+			productRefGroup = 067E44E9159850A1008E18CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067E44E7159850A1008E18CF /* Recipe 4.3: Determining Magnetic Bearing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067E44E6159850A1008E18CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E44F7159850A1008E18CF /* InfoPlist.strings in Resources */,
+				067E4503159850A1008E18CF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067E44E4159850A1008E18CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E44F9159850A1008E18CF /* main.m in Sources */,
+				067E44FD159850A1008E18CF /* AppDelegate.m in Sources */,
+				067E4500159850A1008E18CF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067E44F5159850A1008E18CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067E44F6159850A1008E18CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		067E4501159850A1008E18CF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067E4502159850A1008E18CF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067E4504159850A1008E18CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		067E4505159850A1008E18CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067E4507159850A1008E18CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4.3: Determining Magnetic Bearing/Recipe 4.3: Determining Magnetic Bearing-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4.3: Determining Magnetic Bearing/Recipe 4.3: Determining Magnetic Bearing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		067E4508159850A1008E18CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4.3: Determining Magnetic Bearing/Recipe 4.3: Determining Magnetic Bearing-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4.3: Determining Magnetic Bearing/Recipe 4.3: Determining Magnetic Bearing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067E44E2159850A1008E18CF /* Build configuration list for PBXProject "Recipe 4.3: Determining Magnetic Bearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067E4504159850A1008E18CF /* Debug */,
+				067E4505159850A1008E18CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067E4506159850A1008E18CF /* Build configuration list for PBXNativeTarget "Recipe 4.3: Determining Magnetic Bearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067E4507159850A1008E18CF /* Debug */,
+				067E4508159850A1008E18CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067E44DF159850A1008E18CF /* Project object */;
+}

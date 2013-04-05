@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0621442815A098FD00485FEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0621442715A098FD00485FEB /* UIKit.framework */; };
+		0621442A15A098FD00485FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0621442915A098FD00485FEB /* Foundation.framework */; };
+		0621442C15A098FD00485FEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0621442B15A098FD00485FEB /* CoreGraphics.framework */; };
+		0621443215A098FD00485FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0621443015A098FD00485FEB /* InfoPlist.strings */; };
+		0621443415A098FD00485FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0621443315A098FD00485FEB /* main.m */; };
+		0621443815A098FD00485FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0621443715A098FD00485FEB /* AppDelegate.m */; };
+		0621443B15A098FD00485FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0621443A15A098FD00485FEB /* ViewController.m */; };
+		0621443E15A098FD00485FEB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0621443C15A098FD00485FEB /* ViewController.xib */; };
+		0621444515A0991D00485FEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0621444415A0991D00485FEB /* MapKit.framework */; };
+		0621444715A0A3D400485FEB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0621444615A0A3D400485FEB /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0621442315A098FD00485FEB /* Recipe 6.2: Pinning Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6.2: Pinning Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0621442715A098FD00485FEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0621442915A098FD00485FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0621442B15A098FD00485FEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0621442F15A098FD00485FEB /* Recipe 6.2: Pinning Locations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6.2: Pinning Locations-Info.plist"; sourceTree = "<group>"; };
+		0621443115A098FD00485FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0621443315A098FD00485FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0621443515A098FD00485FEB /* Recipe 6.2: Pinning Locations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6.2: Pinning Locations-Prefix.pch"; sourceTree = "<group>"; };
+		0621443615A098FD00485FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0621443715A098FD00485FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0621443915A098FD00485FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0621443A15A098FD00485FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0621443D15A098FD00485FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0621444415A0991D00485FEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0621444615A0A3D400485FEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0621442015A098FD00485FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0621444715A0A3D400485FEB /* CoreLocation.framework in Frameworks */,
+				0621444515A0991D00485FEB /* MapKit.framework in Frameworks */,
+				0621442815A098FD00485FEB /* UIKit.framework in Frameworks */,
+				0621442A15A098FD00485FEB /* Foundation.framework in Frameworks */,
+				0621442C15A098FD00485FEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0621441815A098FD00485FEB = {
+			isa = PBXGroup;
+			children = (
+				0621444615A0A3D400485FEB /* CoreLocation.framework */,
+				0621444415A0991D00485FEB /* MapKit.framework */,
+				0621442D15A098FD00485FEB /* Recipe 6.2: Pinning Locations */,
+				0621442615A098FD00485FEB /* Frameworks */,
+				0621442415A098FD00485FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0621442415A098FD00485FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0621442315A098FD00485FEB /* Recipe 6.2: Pinning Locations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0621442615A098FD00485FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0621442715A098FD00485FEB /* UIKit.framework */,
+				0621442915A098FD00485FEB /* Foundation.framework */,
+				0621442B15A098FD00485FEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0621442D15A098FD00485FEB /* Recipe 6.2: Pinning Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0621443615A098FD00485FEB /* AppDelegate.h */,
+				0621443715A098FD00485FEB /* AppDelegate.m */,
+				0621443915A098FD00485FEB /* ViewController.h */,
+				0621443A15A098FD00485FEB /* ViewController.m */,
+				0621443C15A098FD00485FEB /* ViewController.xib */,
+				0621442E15A098FD00485FEB /* Supporting Files */,
+			);
+			path = "Recipe 6.2: Pinning Locations";
+			sourceTree = "<group>";
+		};
+		0621442E15A098FD00485FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0621442F15A098FD00485FEB /* Recipe 6.2: Pinning Locations-Info.plist */,
+				0621443015A098FD00485FEB /* InfoPlist.strings */,
+				0621443315A098FD00485FEB /* main.m */,
+				0621443515A098FD00485FEB /* Recipe 6.2: Pinning Locations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0621442215A098FD00485FEB /* Recipe 6.2: Pinning Locations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0621444115A098FD00485FEB /* Build configuration list for PBXNativeTarget "Recipe 6.2: Pinning Locations" */;
+			buildPhases = (
+				0621441F15A098FD00485FEB /* Sources */,
+				0621442015A098FD00485FEB /* Frameworks */,
+				0621442115A098FD00485FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6.2: Pinning Locations";
+			productName = "Recipe 6.2: Pinning Locations";
+			productReference = 0621442315A098FD00485FEB /* Recipe 6.2: Pinning Locations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0621441A15A098FD00485FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 0621441D15A098FD00485FEB /* Build configuration list for PBXProject "Recipe 6.2: Pinning Locations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0621441815A098FD00485FEB;
+			productRefGroup = 0621442415A098FD00485FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0621442215A098FD00485FEB /* Recipe 6.2: Pinning Locations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0621442115A098FD00485FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0621443215A098FD00485FEB /* InfoPlist.strings in Resources */,
+				0621443E15A098FD00485FEB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0621441F15A098FD00485FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0621443415A098FD00485FEB /* main.m in Sources */,
+				0621443815A098FD00485FEB /* AppDelegate.m in Sources */,
+				0621443B15A098FD00485FEB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0621443015A098FD00485FEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0621443115A098FD00485FEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0621443C15A098FD00485FEB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0621443D15A098FD00485FEB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0621443F15A098FD00485FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0621444015A098FD00485FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0621444215A098FD00485FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.2: Pinning Locations/Recipe 6.2: Pinning Locations-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.2: Pinning Locations/Recipe 6.2: Pinning Locations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0621444315A098FD00485FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.2: Pinning Locations/Recipe 6.2: Pinning Locations-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.2: Pinning Locations/Recipe 6.2: Pinning Locations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0621441D15A098FD00485FEB /* Build configuration list for PBXProject "Recipe 6.2: Pinning Locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0621443F15A098FD00485FEB /* Debug */,
+				0621444015A098FD00485FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0621444115A098FD00485FEB /* Build configuration list for PBXNativeTarget "Recipe 6.2: Pinning Locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0621444215A098FD00485FEB /* Debug */,
+				0621444315A098FD00485FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0621441A15A098FD00485FEB /* Project object */;
+}

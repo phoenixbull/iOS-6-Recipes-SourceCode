@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063368E715935699008CF173 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063368E615935699008CF173 /* UIKit.framework */; };
+		063368E915935699008CF173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063368E815935699008CF173 /* Foundation.framework */; };
+		063368EB15935699008CF173 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063368EA15935699008CF173 /* CoreGraphics.framework */; };
+		063368F115935699008CF173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 063368EF15935699008CF173 /* InfoPlist.strings */; };
+		063368F315935699008CF173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 063368F215935699008CF173 /* main.m */; };
+		063368F715935699008CF173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 063368F615935699008CF173 /* AppDelegate.m */; };
+		063368FA15935699008CF173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063368F915935699008CF173 /* ViewController.m */; };
+		063368FD1593569A008CF173 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063368FB1593569A008CF173 /* ViewController.xib */; };
+		067E44AD15964450008E18CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E44AC15964450008E18CF /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		063368E215935699008CF173 /* Recipe 4.1: Basic Location Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 4.1: Basic Location Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		063368E615935699008CF173 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		063368E815935699008CF173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		063368EA15935699008CF173 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		063368EE15935699008CF173 /* Recipe 4.1: Basic Location Information-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4.1: Basic Location Information-Info.plist"; sourceTree = "<group>"; };
+		063368F015935699008CF173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		063368F215935699008CF173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		063368F415935699008CF173 /* Recipe 4.1: Basic Location Information-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 4.1: Basic Location Information-Prefix.pch"; sourceTree = "<group>"; };
+		063368F515935699008CF173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		063368F615935699008CF173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		063368F815935699008CF173 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		063368F915935699008CF173 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		063368FC1593569A008CF173 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		067E44AC15964450008E18CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063368DF15935699008CF173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E44AD15964450008E18CF /* CoreLocation.framework in Frameworks */,
+				063368E715935699008CF173 /* UIKit.framework in Frameworks */,
+				063368E915935699008CF173 /* Foundation.framework in Frameworks */,
+				063368EB15935699008CF173 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063368D715935699008CF173 = {
+			isa = PBXGroup;
+			children = (
+				067E44AC15964450008E18CF /* CoreLocation.framework */,
+				063368EC15935699008CF173 /* Recipe 4.1: Basic Location Information */,
+				063368E515935699008CF173 /* Frameworks */,
+				063368E315935699008CF173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		063368E315935699008CF173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063368E215935699008CF173 /* Recipe 4.1: Basic Location Information.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063368E515935699008CF173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063368E615935699008CF173 /* UIKit.framework */,
+				063368E815935699008CF173 /* Foundation.framework */,
+				063368EA15935699008CF173 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		063368EC15935699008CF173 /* Recipe 4.1: Basic Location Information */ = {
+			isa = PBXGroup;
+			children = (
+				063368F515935699008CF173 /* AppDelegate.h */,
+				063368F615935699008CF173 /* AppDelegate.m */,
+				063368F815935699008CF173 /* ViewController.h */,
+				063368F915935699008CF173 /* ViewController.m */,
+				063368FB1593569A008CF173 /* ViewController.xib */,
+				063368ED15935699008CF173 /* Supporting Files */,
+			);
+			path = "Recipe 4.1: Basic Location Information";
+			sourceTree = "<group>";
+		};
+		063368ED15935699008CF173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				063368EE15935699008CF173 /* Recipe 4.1: Basic Location Information-Info.plist */,
+				063368EF15935699008CF173 /* InfoPlist.strings */,
+				063368F215935699008CF173 /* main.m */,
+				063368F415935699008CF173 /* Recipe 4.1: Basic Location Information-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063368E115935699008CF173 /* Recipe 4.1: Basic Location Information */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063369001593569A008CF173 /* Build configuration list for PBXNativeTarget "Recipe 4.1: Basic Location Information" */;
+			buildPhases = (
+				063368DE15935699008CF173 /* Sources */,
+				063368DF15935699008CF173 /* Frameworks */,
+				063368E015935699008CF173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 4.1: Basic Location Information";
+			productName = "Recipe 4.1: Basic Location Information";
+			productReference = 063368E215935699008CF173 /* Recipe 4.1: Basic Location Information.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063368D915935699008CF173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 063368DC15935699008CF173 /* Build configuration list for PBXProject "Recipe 4.1: Basic Location Information" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 063368D715935699008CF173;
+			productRefGroup = 063368E315935699008CF173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063368E115935699008CF173 /* Recipe 4.1: Basic Location Information */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063368E015935699008CF173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063368F115935699008CF173 /* InfoPlist.strings in Resources */,
+				063368FD1593569A008CF173 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063368DE15935699008CF173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063368F315935699008CF173 /* main.m in Sources */,
+				063368F715935699008CF173 /* AppDelegate.m in Sources */,
+				063368FA15935699008CF173 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		063368EF15935699008CF173 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063368F015935699008CF173 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		063368FB1593569A008CF173 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063368FC1593569A008CF173 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063368FE1593569A008CF173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		063368FF1593569A008CF173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063369011593569A008CF173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4.1: Basic Location Information/Recipe 4.1: Basic Location Information-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4.1: Basic Location Information/Recipe 4.1: Basic Location Information-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		063369021593569A008CF173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4.1: Basic Location Information/Recipe 4.1: Basic Location Information-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4.1: Basic Location Information/Recipe 4.1: Basic Location Information-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063368DC15935699008CF173 /* Build configuration list for PBXProject "Recipe 4.1: Basic Location Information" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063368FE1593569A008CF173 /* Debug */,
+				063368FF1593569A008CF173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063369001593569A008CF173 /* Build configuration list for PBXNativeTarget "Recipe 4.1: Basic Location Information" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063369011593569A008CF173 /* Debug */,
+				063369021593569A008CF173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063368D915935699008CF173 /* Project object */;
+}

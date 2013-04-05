@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0604BABD158E63200059093E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BABC158E63200059093E /* UIKit.framework */; };
+		0604BABF158E63200059093E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BABE158E63200059093E /* Foundation.framework */; };
+		0604BAC1158E63200059093E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BAC0158E63200059093E /* CoreGraphics.framework */; };
+		0604BAC7158E63200059093E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0604BAC5158E63200059093E /* InfoPlist.strings */; };
+		0604BAC9158E63200059093E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BAC8158E63200059093E /* main.m */; };
+		0604BACD158E63200059093E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BACC158E63200059093E /* AppDelegate.m */; };
+		0604BAD0158E63200059093E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0604BACF158E63200059093E /* ViewController.m */; };
+		0604BAD3158E63210059093E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0604BAD1158E63210059093E /* ViewController.xib */; };
+		0604BADA158E81F90059093E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0604BAD9158E81F90059093E /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0604BAB8158E63200059093E /* Recipe 5.3: Device Motion Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 5.3: Device Motion Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604BABC158E63200059093E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0604BABE158E63200059093E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0604BAC0158E63200059093E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0604BAC4158E63200059093E /* Recipe 5.3: Device Motion Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 5.3: Device Motion Data-Info.plist"; sourceTree = "<group>"; };
+		0604BAC6158E63200059093E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0604BAC8158E63200059093E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0604BACA158E63200059093E /* Recipe 5.3: Device Motion Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 5.3: Device Motion Data-Prefix.pch"; sourceTree = "<group>"; };
+		0604BACB158E63200059093E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0604BACC158E63200059093E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0604BACE158E63200059093E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0604BACF158E63200059093E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0604BAD2158E63210059093E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0604BAD9158E81F90059093E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0604BAB5158E63200059093E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BADA158E81F90059093E /* CoreMotion.framework in Frameworks */,
+				0604BABD158E63200059093E /* UIKit.framework in Frameworks */,
+				0604BABF158E63200059093E /* Foundation.framework in Frameworks */,
+				0604BAC1158E63200059093E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0604BAAD158E63200059093E = {
+			isa = PBXGroup;
+			children = (
+				0604BAD9158E81F90059093E /* CoreMotion.framework */,
+				0604BAC2158E63200059093E /* Recipe 5.3: Device Motion Data */,
+				0604BABB158E63200059093E /* Frameworks */,
+				0604BAB9158E63200059093E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0604BAB9158E63200059093E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0604BAB8158E63200059093E /* Recipe 5.3: Device Motion Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0604BABB158E63200059093E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0604BABC158E63200059093E /* UIKit.framework */,
+				0604BABE158E63200059093E /* Foundation.framework */,
+				0604BAC0158E63200059093E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0604BAC2158E63200059093E /* Recipe 5.3: Device Motion Data */ = {
+			isa = PBXGroup;
+			children = (
+				0604BACB158E63200059093E /* AppDelegate.h */,
+				0604BACC158E63200059093E /* AppDelegate.m */,
+				0604BACE158E63200059093E /* ViewController.h */,
+				0604BACF158E63200059093E /* ViewController.m */,
+				0604BAD1158E63210059093E /* ViewController.xib */,
+				0604BAC3158E63200059093E /* Supporting Files */,
+			);
+			path = "Recipe 5.3: Device Motion Data";
+			sourceTree = "<group>";
+		};
+		0604BAC3158E63200059093E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0604BAC4158E63200059093E /* Recipe 5.3: Device Motion Data-Info.plist */,
+				0604BAC5158E63200059093E /* InfoPlist.strings */,
+				0604BAC8158E63200059093E /* main.m */,
+				0604BACA158E63200059093E /* Recipe 5.3: Device Motion Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0604BAB7158E63200059093E /* Recipe 5.3: Device Motion Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604BAD6158E63210059093E /* Build configuration list for PBXNativeTarget "Recipe 5.3: Device Motion Data" */;
+			buildPhases = (
+				0604BAB4158E63200059093E /* Sources */,
+				0604BAB5158E63200059093E /* Frameworks */,
+				0604BAB6158E63200059093E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 5.3: Device Motion Data";
+			productName = "Recipe 5.3: Device Motion Data";
+			productReference = 0604BAB8158E63200059093E /* Recipe 5.3: Device Motion Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0604BAAF158E63200059093E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 0604BAB2158E63200059093E /* Build configuration list for PBXProject "Recipe 5.3: Device Motion Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0604BAAD158E63200059093E;
+			productRefGroup = 0604BAB9158E63200059093E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0604BAB7158E63200059093E /* Recipe 5.3: Device Motion Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0604BAB6158E63200059093E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BAC7158E63200059093E /* InfoPlist.strings in Resources */,
+				0604BAD3158E63210059093E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0604BAB4158E63200059093E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604BAC9158E63200059093E /* main.m in Sources */,
+				0604BACD158E63200059093E /* AppDelegate.m in Sources */,
+				0604BAD0158E63200059093E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0604BAC5158E63200059093E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604BAC6158E63200059093E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0604BAD1158E63210059093E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604BAD2158E63210059093E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0604BAD4158E63210059093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0604BAD5158E63210059093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0604BAD7158E63210059093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5.3: Device Motion Data/Recipe 5.3: Device Motion Data-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5.3: Device Motion Data/Recipe 5.3: Device Motion Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0604BAD8158E63210059093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5.3: Device Motion Data/Recipe 5.3: Device Motion Data-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5.3: Device Motion Data/Recipe 5.3: Device Motion Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0604BAB2158E63200059093E /* Build configuration list for PBXProject "Recipe 5.3: Device Motion Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604BAD4158E63210059093E /* Debug */,
+				0604BAD5158E63210059093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604BAD6158E63210059093E /* Build configuration list for PBXNativeTarget "Recipe 5.3: Device Motion Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604BAD7158E63210059093E /* Debug */,
+				0604BAD8158E63210059093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0604BAAF158E63200059093E /* Project object */;
+}

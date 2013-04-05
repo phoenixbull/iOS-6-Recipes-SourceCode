@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062143F8159F7A7F00485FEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062143F7159F7A7F00485FEB /* UIKit.framework */; };
+		062143FA159F7A7F00485FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062143F9159F7A7F00485FEB /* Foundation.framework */; };
+		062143FC159F7A7F00485FEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062143FB159F7A7F00485FEB /* CoreGraphics.framework */; };
+		06214402159F7A7F00485FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06214400159F7A7F00485FEB /* InfoPlist.strings */; };
+		06214404159F7A7F00485FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06214403159F7A7F00485FEB /* main.m */; };
+		06214408159F7A7F00485FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06214407159F7A7F00485FEB /* AppDelegate.m */; };
+		0621440B159F7A7F00485FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0621440A159F7A7F00485FEB /* ViewController.m */; };
+		0621440E159F7A7F00485FEB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0621440C159F7A7F00485FEB /* ViewController.xib */; };
+		06214415159F7AA200485FEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06214414159F7AA200485FEB /* MapKit.framework */; };
+		06214417159F8EF700485FEB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06214416159F8EF700485FEB /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062143F3159F7A7F00485FEB /* Recipe 6.1: Showing Current Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6.1: Showing Current Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		062143F7159F7A7F00485FEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		062143F9159F7A7F00485FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		062143FB159F7A7F00485FEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		062143FF159F7A7F00485FEB /* Recipe 6.1: Showing Current Location-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6.1: Showing Current Location-Info.plist"; sourceTree = "<group>"; };
+		06214401159F7A7F00485FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06214403159F7A7F00485FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06214405159F7A7F00485FEB /* Recipe 6.1: Showing Current Location-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6.1: Showing Current Location-Prefix.pch"; sourceTree = "<group>"; };
+		06214406159F7A7F00485FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06214407159F7A7F00485FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06214409159F7A7F00485FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0621440A159F7A7F00485FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0621440D159F7A7F00485FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		06214414159F7AA200485FEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		06214416159F8EF700485FEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062143F0159F7A7F00485FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06214417159F8EF700485FEB /* CoreLocation.framework in Frameworks */,
+				06214415159F7AA200485FEB /* MapKit.framework in Frameworks */,
+				062143F8159F7A7F00485FEB /* UIKit.framework in Frameworks */,
+				062143FA159F7A7F00485FEB /* Foundation.framework in Frameworks */,
+				062143FC159F7A7F00485FEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062143E8159F7A7F00485FEB = {
+			isa = PBXGroup;
+			children = (
+				062143FD159F7A7F00485FEB /* Recipe 6.1: Showing Current Location */,
+				062143F6159F7A7F00485FEB /* Frameworks */,
+				062143F4159F7A7F00485FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062143F4159F7A7F00485FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062143F3159F7A7F00485FEB /* Recipe 6.1: Showing Current Location.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062143F6159F7A7F00485FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06214416159F8EF700485FEB /* CoreLocation.framework */,
+				06214414159F7AA200485FEB /* MapKit.framework */,
+				062143F7159F7A7F00485FEB /* UIKit.framework */,
+				062143F9159F7A7F00485FEB /* Foundation.framework */,
+				062143FB159F7A7F00485FEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		062143FD159F7A7F00485FEB /* Recipe 6.1: Showing Current Location */ = {
+			isa = PBXGroup;
+			children = (
+				06214406159F7A7F00485FEB /* AppDelegate.h */,
+				06214407159F7A7F00485FEB /* AppDelegate.m */,
+				06214409159F7A7F00485FEB /* ViewController.h */,
+				0621440A159F7A7F00485FEB /* ViewController.m */,
+				0621440C159F7A7F00485FEB /* ViewController.xib */,
+				062143FE159F7A7F00485FEB /* Supporting Files */,
+			);
+			path = "Recipe 6.1: Showing Current Location";
+			sourceTree = "<group>";
+		};
+		062143FE159F7A7F00485FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				062143FF159F7A7F00485FEB /* Recipe 6.1: Showing Current Location-Info.plist */,
+				06214400159F7A7F00485FEB /* InfoPlist.strings */,
+				06214403159F7A7F00485FEB /* main.m */,
+				06214405159F7A7F00485FEB /* Recipe 6.1: Showing Current Location-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062143F2159F7A7F00485FEB /* Recipe 6.1: Showing Current Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06214411159F7A7F00485FEB /* Build configuration list for PBXNativeTarget "Recipe 6.1: Showing Current Location" */;
+			buildPhases = (
+				062143EF159F7A7F00485FEB /* Sources */,
+				062143F0159F7A7F00485FEB /* Frameworks */,
+				062143F1159F7A7F00485FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6.1: Showing Current Location";
+			productName = "Recipe 6.1: Showing Current Location";
+			productReference = 062143F3159F7A7F00485FEB /* Recipe 6.1: Showing Current Location.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062143EA159F7A7F00485FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 062143ED159F7A7F00485FEB /* Build configuration list for PBXProject "Recipe 6.1: Showing Current Location" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 062143E8159F7A7F00485FEB;
+			productRefGroup = 062143F4159F7A7F00485FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062143F2159F7A7F00485FEB /* Recipe 6.1: Showing Current Location */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062143F1159F7A7F00485FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06214402159F7A7F00485FEB /* InfoPlist.strings in Resources */,
+				0621440E159F7A7F00485FEB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062143EF159F7A7F00485FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06214404159F7A7F00485FEB /* main.m in Sources */,
+				06214408159F7A7F00485FEB /* AppDelegate.m in Sources */,
+				0621440B159F7A7F00485FEB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06214400159F7A7F00485FEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06214401159F7A7F00485FEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0621440C159F7A7F00485FEB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0621440D159F7A7F00485FEB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0621440F159F7A7F00485FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06214410159F7A7F00485FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06214412159F7A7F00485FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.1: Showing Current Location/Recipe 6.1: Showing Current Location-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.1: Showing Current Location/Recipe 6.1: Showing Current Location-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06214413159F7A7F00485FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6.1: Showing Current Location/Recipe 6.1: Showing Current Location-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6.1: Showing Current Location/Recipe 6.1: Showing Current Location-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062143ED159F7A7F00485FEB /* Build configuration list for PBXProject "Recipe 6.1: Showing Current Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0621440F159F7A7F00485FEB /* Debug */,
+				06214410159F7A7F00485FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06214411159F7A7F00485FEB /* Build configuration list for PBXNativeTarget "Recipe 6.1: Showing Current Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06214412159F7A7F00485FEB /* Debug */,
+				06214413159F7A7F00485FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062143EA159F7A7F00485FEB /* Project object */;
+}

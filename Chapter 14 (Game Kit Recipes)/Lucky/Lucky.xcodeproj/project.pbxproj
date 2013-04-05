@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062284BC1607089500A94B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062284BB1607089500A94B8C /* UIKit.framework */; };
+		062284BE1607089500A94B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062284BD1607089500A94B8C /* Foundation.framework */; };
+		062284C01607089500A94B8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062284BF1607089500A94B8C /* CoreGraphics.framework */; };
+		062284C61607089500A94B8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 062284C41607089500A94B8C /* InfoPlist.strings */; };
+		062284C81607089500A94B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 062284C71607089500A94B8C /* main.m */; };
+		062284CC1607089500A94B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 062284CB1607089500A94B8C /* AppDelegate.m */; };
+		062284CE1607089500A94B8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 062284CD1607089500A94B8C /* Default.png */; };
+		062284D01607089500A94B8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 062284CF1607089500A94B8C /* Default@2x.png */; };
+		062284D21607089500A94B8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 062284D11607089500A94B8C /* Default-568h@2x.png */; };
+		062284D51607089500A94B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062284D41607089500A94B8C /* ViewController.m */; };
+		062284D81607089500A94B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062284D61607089500A94B8C /* ViewController.xib */; };
+		062284E1160714F900A94B8C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062284DF160714F900A94B8C /* GameViewController.m */; };
+		062284E2160714F900A94B8C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062284E0160714F900A94B8C /* GameViewController.xib */; };
+		062284E41608A86500A94B8C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062284E31608A86400A94B8C /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062284B71607089500A94B8C /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062284BB1607089500A94B8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		062284BD1607089500A94B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		062284BF1607089500A94B8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		062284C31607089500A94B8C /* Lucky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lucky-Info.plist"; sourceTree = "<group>"; };
+		062284C51607089500A94B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		062284C71607089500A94B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		062284C91607089500A94B8C /* Lucky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lucky-Prefix.pch"; sourceTree = "<group>"; };
+		062284CA1607089500A94B8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		062284CB1607089500A94B8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		062284CD1607089500A94B8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		062284CF1607089500A94B8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		062284D11607089500A94B8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		062284D31607089500A94B8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		062284D41607089500A94B8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		062284D71607089500A94B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		062284DE160714F900A94B8C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		062284DF160714F900A94B8C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		062284E0160714F900A94B8C /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		062284E31608A86400A94B8C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062284B41607089500A94B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062284E41608A86500A94B8C /* GameKit.framework in Frameworks */,
+				062284BC1607089500A94B8C /* UIKit.framework in Frameworks */,
+				062284BE1607089500A94B8C /* Foundation.framework in Frameworks */,
+				062284C01607089500A94B8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062284AC1607089500A94B8C = {
+			isa = PBXGroup;
+			children = (
+				062284C11607089500A94B8C /* Lucky */,
+				062284BA1607089500A94B8C /* Frameworks */,
+				062284B81607089500A94B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062284B81607089500A94B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062284B71607089500A94B8C /* Lucky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062284BA1607089500A94B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				062284E31608A86400A94B8C /* GameKit.framework */,
+				062284BB1607089500A94B8C /* UIKit.framework */,
+				062284BD1607089500A94B8C /* Foundation.framework */,
+				062284BF1607089500A94B8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		062284C11607089500A94B8C /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				062284CA1607089500A94B8C /* AppDelegate.h */,
+				062284CB1607089500A94B8C /* AppDelegate.m */,
+				062284D31607089500A94B8C /* ViewController.h */,
+				062284D41607089500A94B8C /* ViewController.m */,
+				062284D61607089500A94B8C /* ViewController.xib */,
+				062284C21607089500A94B8C /* Supporting Files */,
+				062284DE160714F900A94B8C /* GameViewController.h */,
+				062284DF160714F900A94B8C /* GameViewController.m */,
+				062284E0160714F900A94B8C /* GameViewController.xib */,
+			);
+			path = Lucky;
+			sourceTree = "<group>";
+		};
+		062284C21607089500A94B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				062284C31607089500A94B8C /* Lucky-Info.plist */,
+				062284C41607089500A94B8C /* InfoPlist.strings */,
+				062284C71607089500A94B8C /* main.m */,
+				062284C91607089500A94B8C /* Lucky-Prefix.pch */,
+				062284CD1607089500A94B8C /* Default.png */,
+				062284CF1607089500A94B8C /* Default@2x.png */,
+				062284D11607089500A94B8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062284B61607089500A94B8C /* Lucky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062284DB1607089500A94B8C /* Build configuration list for PBXNativeTarget "Lucky" */;
+			buildPhases = (
+				062284B31607089500A94B8C /* Sources */,
+				062284B41607089500A94B8C /* Frameworks */,
+				062284B51607089500A94B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lucky;
+			productName = Lucky;
+			productReference = 062284B71607089500A94B8C /* Lucky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062284AE1607089500A94B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hans-Eric Grönlund";
+			};
+			buildConfigurationList = 062284B11607089500A94B8C /* Build configuration list for PBXProject "Lucky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 062284AC1607089500A94B8C;
+			productRefGroup = 062284B81607089500A94B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062284B61607089500A94B8C /* Lucky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062284B51607089500A94B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062284C61607089500A94B8C /* InfoPlist.strings in Resources */,
+				062284CE1607089500A94B8C /* Default.png in Resources */,
+				062284D01607089500A94B8C /* Default@2x.png in Resources */,
+				062284D21607089500A94B8C /* Default-568h@2x.png in Resources */,
+				062284D81607089500A94B8C /* ViewController.xib in Resources */,
+				062284E2160714F900A94B8C /* GameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062284B31607089500A94B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062284C81607089500A94B8C /* main.m in Sources */,
+				062284CC1607089500A94B8C /* AppDelegate.m in Sources */,
+				062284D51607089500A94B8C /* ViewController.m in Sources */,
+				062284E1160714F900A94B8C /* GameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		062284C41607089500A94B8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062284C51607089500A94B8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		062284D61607089500A94B8C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062284D71607089500A94B8C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062284D91607089500A94B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		062284DA1607089500A94B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062284DC1607089500A94B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lucky/Lucky-Prefix.pch";
+				INFOPLIST_FILE = "Lucky/Lucky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		062284DD1607089500A94B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lucky/Lucky-Prefix.pch";
+				INFOPLIST_FILE = "Lucky/Lucky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062284B11607089500A94B8C /* Build configuration list for PBXProject "Lucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062284D91607089500A94B8C /* Debug */,
+				062284DA1607089500A94B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062284DB1607089500A94B8C /* Build configuration list for PBXNativeTarget "Lucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062284DC1607089500A94B8C /* Debug */,
+				062284DD1607089500A94B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062284AE1607089500A94B8C /* Project object */;
+}
